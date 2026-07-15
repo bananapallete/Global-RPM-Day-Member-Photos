@@ -1,0 +1,318 @@
+# 구성원 영문명 매핑 (Google Sheets "2026 Global RPM Day" 명단 기준)
+# 형식: 국문명 <TAB> 영문명 <TAB> 시트 소속명
+강현규	Kyle Kang	ENR TF
+신상현	Leo Shin	ENR TF
+이경찬	Marshall Lee	ENR TF
+최유민	Ralf Choi	ENR TF
+서승우	Eiden Seo	ENR TF
+홍수정	Crystal Hong	ENR TF
+에드가	Edgar De Los Santos	ENR TF
+니킬	Nikhil Batlanki	ENR TF
+강기훈	David Kang	ENR TF
+이현수	Vito Lee	Europe BIZ Team
+권성현	Sunny Kwon	Europe BIZ Team
+이진솔	Lee Jinsol	Europe BIZ Team
+마노즈	Manoj Kheterpal	Europe BIZ Team
+보우차	Boucha Oussama	Europe BIZ Team
+양재석	Yang Jaeseok	Europe BIZ Team
+진병엽	Jin Byungyup	Europe BIZ Team
+양상현	Yang Sanghyun	Europe BIZ Team
+김희진	Kim Heejin	Europe BIZ Team
+홍기성	Eddie Hong	Asia BIZ Team
+손준걸	Dennis Son	Asia BIZ Team
+최영호	Choi, Youngho	Asia BIZ Team
+윤영웅	Yoon Youngwoong	Asia BIZ Team
+임승규	Lim Seungkyu	Asia BIZ Team
+최규완	Choi Kyuwan	Asia BIZ Team
+안계명	An Kyemyung	Asia BIZ Team
+박철우	Park Chulwoo	Asia BIZ Team
+박성수	Park Seongsoo	Asia BIZ Team
+안휘빈	Ahn Hwibin	Asia BIZ Team
+한현택	Hahn Hyuntaek	Asia BIZ Team
+박성호	Park Sungho	Asia BIZ Team
+정지영	Jung Jiyoung	Asia BIZ Team
+정민영	Jeong Minyoung	Asia BIZ Team
+정승완	Jeong Seungwan	Asia BIZ Team
+오동현	Oh Donghyun	Asia BIZ Team
+김규보	Kim Gyubo	Asia BIZ Team
+박하림	Park Harim	Asia BIZ Team
+이범근	Win Lee	Asia BIZ Team
+팟파신	Phatpasin Samprasit	Asia BIZ Team
+끼앗싸꾼	Kiatsakul Khalasai	Asia BIZ Team
+응우웬 투 탕	Nguyễn Từ Thắng	Asia BIZ Team
+이승민	Lee Seungmin	Southern BIZ TF
+정용근	Jung Yonggeun	Southern BIZ TF
+유명인	Yoo Myungin	Southern BIZ TF
+박준혁	Park Junhyuk	Southern BIZ TF
+김세훈	Kim Sehoon	Southern BIZ TF
+윤영환	Yoon Younghwan	Mechanical BIZ Team
+김종성	Kim Jongseong	Mechanical BIZ Team
+신상준	Shin Sangjun	Mechanical BIZ Team
+한수민	Han Sumin	Mechanical BIZ Team
+이환규	Lee Hwangyu	Mechanical BIZ Team
+박이준	Park Yijun	Mechanical BIZ Team
+심은기	Sim Eungi	Mechanical BIZ Team
+최승빈	Choi Seungbin	Mechanical BIZ Team
+박상우	Park Sangwoo	Mechanical BIZ Team
+강소라	Kang Sora	Geotechnical BIZ Team
+전제석	Jeon Jeseok	Geotechnical BIZ Team
+조원준	Cho Wonjun	Geotechnical BIZ Team
+최용준	Choi Yongjun	Geotechnical BIZ Team
+이종훈	Lee Jonghun	Geotechnical BIZ Team
+조재은	Cho Jaeeun	Geotechnical BIZ Team
+배일근	Bae Ilgeun	Geotechnical BIZ Team
+채형진	Chae Hyungjin	Geotechnical BIZ Team
+유현일	You Hyunil	Geotechnical BIZ Team
+이태헌	Lee Taeheon	Geotechnical BIZ Team
+양현승	Yang Hyunseung	Geotechnical BIZ Team
+최진원	Choi Jinwon	Geotechnical BIZ Team
+김관홍	Kim Kwanhong	Geotechnical BIZ Team
+이정현	Lee Junghyun	Geotechnical BIZ Team
+윤장호	Yoon Jangho	Geotechnical BIZ Team
+이현웅	Lee Hyunwoong	Geotechnical BIZ Team
+정대교	Jung Daegyo	Structural BIZ Team
+이정우	Lee Jungwoo	Structural BIZ Team
+전준언	Jeon Juneon	Structural BIZ Team
+김효진	Kim Hyojin	Structural BIZ Team
+강희용	Kang Heeyong	Structural BIZ Team
+이선벽	Lee Seonbyeok	Structural BIZ Team
+조원규	Jo Wongyu	Structural BIZ Team
+배동민	Bae Dongmin	Structural BIZ Team
+임정현	Lim Jeonghyeon	Structural BIZ Team
+김민재	Kim Minjae	Structural BIZ Team
+박예림	Park Yerim	Structural BIZ Team
+신의균	Shin Euigyun	Architecture BIZ Team
+강재석	Kang Jaeseok	Architecture BIZ Team
+이준희	Lee Junhee	Architecture BIZ Team
+정민교	Jeong Minkyo	Architecture BIZ Team
+이환주	Lee Hwanju	Architecture BIZ Team
+김용준	Kim Yongjoon	Architecture BIZ Team
+최민주	Choi Minju	Architecture BIZ Team
+김승준	Kim Seungjun	Architecture BIZ Team
+김승래	Kim Seungrae	Architecture BIZ Team
+김현덕	Kim Hyundeok	Design DEV Team
+이은경	Lee Eunkyung	Design DEV Team
+안재오	Ahn Jaeoh	Design DEV Team
+김승준	Kim Seungjun	Design DEV Team
+이시암	Lee Siam	Design DEV Team
+최배성	Choi Baisung	Design DEV Team
+안태준	Ahn Taejun	Design DEV Team
+이승훈	Lee Seunghoon	Design DEV Team
+홍정모	Hong Jeongmo	Design DEV Team
+김종남	Kim Jongnam	Design DEV Team
+배상현	Bae Sanghyun	Design DEV Team
+김준호	Kim Junho	Design DEV Team
+박찬석	Park Chanseok	Design DEV Team
+문성혁	Moon Seonghyeok	Design DEV Team
+류지승	Ryu Jeeseung	Design DEV Team
+소정은	So Jeongeun	Design DEV Team
+장재욱	Jang Jaeuk	Design DEV Team
+박현재	Park Hyunjae	EnSol DEV Team
+정진상	Chung Jinsang	EnSol DEV Team
+허문석	Huh Moonseok	EnSol DEV Team
+우성운	Woo Sungwoon	EnSol DEV Team
+함성훈	Ham Sunghun	EnSol DEV Team
+서기홍	Seo Kihong	EnSol DEV Team
+윤장호	Yun Jangho	EnSol DEV Team
+권정우	Kwon Jeongwoo	EnSol DEV Team
+장형상	Jang Hyungsang	EnSol DEV Team
+정향희	Jung Hyanghee	EnSol DEV Team
+박경식	Park Kyungsik	EnSol DEV Team
+강승한	Kang Seunghan	EnSol DEV Team
+박건태	Park Kuntae	EnSol DEV Team
+장창현	Jang Changhyun	EnSol DEV Team
+상예찬	Sang Yechan	EnSol DEV Team
+이수민	Lee Sumin	EnSol DEV Team
+서충원	Seo Chungwon	EnSol DEV Team
+이혜연	Lee Hyeyeon	Technical Planning Team
+이대근	Lee Daekeun	Technical Planning Team
+김동진	Kim Dongjin	Technical Planning Team
+김선우	Kim Sunwoo	Technical Planning Team
+김태국	Kim Taegook	Technical Planning Team
+박상렬	Park Sangryul	Technical Planning Team
+하성열	Ha Sungyoul	Technical Planning Team
+이승진	Lee Seungjin	Technical Planning Team
+이현민	Lee Hyunmin	Technical Planning Team
+박재욱	Park Jaewook	Technical Planning Team
+최은주	Choi Eunju	Technical Planning Team
+신대석	Shin Daeseock	MAX TF
+심후성	Sim Husung	MAX TF
+박시형	Park Sihyong	MAX TF
+장훈	Jang Hun	MAX TF
+박영준	Park Youngjun	MAX TF
+허영욱	Hur Youngwook	MAX TF
+김현	Kim Hyun	MAX TF
+김민섭	Kim Minseop	MAX TF
+김정빈	Kim Jungbin	MAX TF
+변창언	Byun Changeon	MAX TF
+윤재웅	Yun Jaewoong	MAX TF
+박찬우	Park Chanwoo	MAX TF
+고종혁	Ko Jonghyuk	MAX TF
+김준우	Kim Joonwoo	MAX TF
+이준서	Lee Junseo	MAX TF
+김용수	Kim Yongsu	MOTIIV DEV Team
+도기봉	Do Kibong	MOTIIV DEV Team
+손영민	Son Youngmin	MOTIIV DEV Team
+조해용	Cho Haeyong	MOTIIV DEV Team
+서상준	Seo Sangjun	MOTIIV DEV Team
+김지원	Kim Jiwon	MOTIIV DEV Team
+김상리	Kim Sangrin	MOTIIV DEV Team
+유상진	You Sangjin	MOTIIV DEV Team
+최승원	Choi Seungwon	MOTIIV DEV Team
+신형진	Shin Hyeongjin	MOTIIV DEV Team
+이의현	Lee Uihyun	Web Services DEV Team
+조도연	Cho Doyeon	Web Services DEV Team
+신민우	Shin Minwoo	Web Services DEV Team
+김현규	Kim Hyeongyu	Web Services DEV Team
+황정혜	Hwang Junghye	Web Services DEV Team
+이찬	Lee Chan	Web Services DEV Team
+김건휘	Kim Geonhwi	Web Services DEV Team
+한강섭	Han Kangsub	Web Services DEV Team
+김승수	Kim Seungsu	Web Services DEV Team
+김재승	Kim Jaeseung	RPM Team
+김제헌	Kim Jeheon	RPM Team
+김동현	Kim Donghyun	RPM Team
+윤승훈	Yoon Seunghoon	RPM Team
+정미선	Jung Misun	RPM Team
+김희성	Kim Heesung	RPM Team
+조한정	Cho Hanjung	RPM Team
+이지선	Lee Jisun	RPM Team
+손가희	Sohn Gahee	RPM Team
+민의진	Min Uijin	RPM Team
+신정윤	Shin Jeongyoon	RPM Team
+송아리	Song Ari	RPM Team
+김동규	Kim Dongkyu	RPM Team
+김동욱	Kim Dongwook	RPM Team
+김민태	Kim Mintae	RPM Team-GRD Staff
+조성진	Jo Sungjin	RPM Team-GRD Staff
+한내경	Han Naekyung	RPM Team-GRD Staff
+유온유	Yoo Onyoo	RPM Team-GRD Staff
+황다원	Hwang Dawon	RPM Team-GRD Staff
+강올레그	Oleg Kan	Russia Branch
+콘스탄틴	Konstantin Skorobagatko	Russia Branch
+예고르	Egor Desyatnikov	Russia Branch
+크리스티나	Kristina Pataraya	Russia Branch
+블라디미르	Vladimir Lee	Russia Branch
+예카테리나	Ekaterina Solodova	Russia Branch
+예브게니	Evgeniy Yudintsev	Russia Branch
+안나	Anna Odnokopylova	Russia Branch
+옥사나	Oksana Panina	Russia Branch
+이준호	Jason Lee	North America Branch
+박지훈	Louis Park	North America Branch
+한정묘	Ellie Han	North America Branch
+이근협	Axel Lee	North America Branch
+알란	Alan Alexis Rivas Acevedo	North America Branch
+호라시오	Horacio De Jesus Nangullasmu Hernandez	North America Branch
+소피아	Sofia Pimiento Restrepo	North America Branch
+안드레스	Andres Mauricio Lozano Briceno	North America Branch
+대니엘	Daniel Restrepo	North America Branch
+루세로	Lucero Rivas	North America Branch
+신정호	Shin Jungho	Japan Branch
+윤성민	Yeun Seongmin	Japan Branch
+김재모	Kim Jaemo	Japan Branch
+송재경	Song Jaekyung	Japan Branch
+최동철	Choi Dongchul	Japan Branch
+전장웅	Tian Changxiong	Japan Branch
+김경환	Kim Kyunghwan	Japan Branch
+히로세 에이쥬	Hirose Eiju	Japan Branch
+신승윤	Shin Seungyun	Japan Branch
+임채호	Lim Chaeho	Japan Branch
+김은영	Kim Eunyeong	Japan Branch
+신동우	Shin Dongwoo	Japan Branch
+이한규	Lee Hangyu	Japan Branch
+오세훈	Oh Sehoon	Japan Branch
+후지이 유야	Fujii Yuya	Japan Branch
+이지우	Yi Jiwoo	Japan Branch
+라비	Naga Ravi Kiran Anne	India Branch
+아시시	Ashishi Loya	India Branch
+난딥	Nandeep Gohil	India Branch
+아얀	Ayan Srivastava	India Branch
+리샤브	Rishav Prasad	India Branch
+싯다르타	Siddartha	India Branch
+자예쉬	Jayesh Darshane	India Branch
+프라하르샤	Praharsha Gade	India Branch
+시타람	Seetharam Tirupathimuhanthi	India Branch
+바탄	Vatan Sharma	India Branch
+마헤시	Mahesh Surla	India Branch
+니사르그	Nisarg Shah	India Branch
+카부스 타쿠르	Qaboos Thakur	India Branch
+디비얀쉬 판데이	Divyansh Pandey	India Branch
+사티암 자인	Satyam Jain	India Branch
+전상목	Daniel Jeon	Philippine Branch
+최주현	Ryan Choi	Philippine Branch
+제인	Jane Acosta	Philippine Branch
+아메드	Amed Lovendino	Philippine Branch
+파울로	Paulo Calidayan	Philippine Branch
+리츠	Ritz Montevrigen	Philippine Branch
+마리츠	Mariz Encomienda	Philippine Branch
+막스	Max Lambampa	Philippine Branch
+다이앤	Dianne Gutierrez	Philippine Branch
+놀란	Norlan De Vera	Philippine Branch
+라지	Raji Garcia	Philippine Branch
+김창범	Edmond Kim	Australia Branch
+최종규	Nicholas Choi	Australia Branch
+프라납	Pranav Vaishampayan	Australia Branch
+최춘화	Chloe Choi	Australia Branch
+하르샤	Harsha Tadavarthi	Australia Branch
+정승식	Jeong Seungsig	China Branch
+성종수	Sung Jongsu	China Branch
+김경환	Kim Kyounghwan	China Branch
+위신	Yu Xin	China Branch
+리빈	Li Bin	China Branch
+팽해군	Peng Haijun	China Branch
+당효동	Tang Xiaodong	China Branch
+마문학	Ma Wenxue	China Branch
+조몽기	Cao Mengqi	China Branch
+김민호	Jin Minhao	China Branch
+김해룡	Jin Hailong	China Branch
+왕평평	Wang Pingping	China Branch
+황애령	Huang Ailing	China Branch
+육수동	Lu Shuaidong	China Branch
+라강림	Luo Jianglin	China Branch
+곽홍량	Guo Hongliang	China Branch
+고덕지	Gao Dezhi	China Branch
+양로	Yang Lu	China Branch
+오림호	Wu Linhu	China Branch
+장재욱	Zhang Ziyu	China Branch
+당하	Dang Xia	China Branch
+강위	Jiang Wei	China Branch
+장검명	Zhang Jianming	China Branch
+왕안기	Wang Anqi	China Branch
+황우능	Huang Youneng	China Branch
+정팅	Zheng Ting	China Branch
+리나	Li Na	China Branch
+황립홍	Huang Lihong	China Branch
+왕우명	Wang Youming	China Branch
+리남성	Li Nanxing	China Branch
+진군렴	Chen Junlian	China Branch
+왕천	Wang Tian	China Branch
+리춘맹	Li Chunmeng	China Branch
+정선태	Jeong Suntae	신사옥추진실
+김기봉	Kim Kibong	신사옥추진실
+최원호	Choi Wonho	자인기획실
+이상윤	Lee Sangyun	자인기획실
+라소담	Rha Sodam	자인기획실
+김성진	Kim Sungjin	ExD팀
+양소희	Yang Sohee	ExD팀
+김소록	Kim Sorok	행복인재팀
+김호영	Kim Ho Yeong	행복인재팀
+정승종	Seungjong Jung	행복인재팀
+이진오	Lee Jin Oh	행복인재팀
+임정민	Lim Jeongmin	행복인재팀
+마영준	Youngjun Ma	행복인재팀
+신미영	Shin Mi Young	경영전략실
+고희중	Ko Heejung	경영전략실
+김대윤	Kim Daeyoon	경영전략실
+이승현	Lee Seung Hyun	경영전략실
+박민호	Min-Ho Park	경영전략실
+허정우	Heo Jeong U	경영전략실
+이상호	Lee Sang Ho	SK추진실
+서남일	Seo Nam Il	SK추진실
+권태형	Kwon Taehyung	SK추진실
+박지훈	Park Ji Hun	SK추진실
+김병석	Kim Byung Seok	SK상전실
+장대성	Jang Dae Sung	SK상전실
+이현주	Lee Hyun Ju	SK상전실
+하성우	Ha Sungwoo	AX기반개발 TF
+박동근	Park Dong Geun	AX기반개발 TF
+황병훈	Hwang Byung Hun	AX기반개발 TF

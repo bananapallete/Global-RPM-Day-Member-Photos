@@ -11,6 +11,7 @@ const DATA = [
         "members": [
           {
             "name": "이승민",
+            "en": "Lee Seungmin",
             "team": "남부사업TF",
             "note": "",
             "photo": "photos/nambu/이승민.png",
@@ -18,6 +19,7 @@ const DATA = [
           },
           {
             "name": "정용근",
+            "en": "Jung Yonggeun",
             "team": "남부사업TF",
             "note": "",
             "photo": "photos/nambu/정용근.png",
@@ -25,6 +27,7 @@ const DATA = [
           },
           {
             "name": "유명인",
+            "en": "Yoo Myungin",
             "team": "남부사업TF",
             "note": "",
             "photo": "photos/nambu/유명인.png",
@@ -32,6 +35,7 @@ const DATA = [
           },
           {
             "name": "김세훈",
+            "en": "Kim Sehoon",
             "team": "남부사업TF",
             "note": "인턴",
             "photo": "photos/nambu/김세훈.png",
@@ -46,6 +50,7 @@ const DATA = [
         "members": [
           {
             "name": "윤영환",
+            "en": "Yoon Younghwan",
             "team": "기계사업팀",
             "note": "",
             "photo": "photos/mech/윤영환.png",
@@ -53,6 +58,7 @@ const DATA = [
           },
           {
             "name": "김종성",
+            "en": "Kim Jongseong",
             "team": "기계사업팀",
             "note": "",
             "photo": "photos/mech/김종성.png",
@@ -60,6 +66,7 @@ const DATA = [
           },
           {
             "name": "신상준",
+            "en": "Shin Sangjun",
             "team": "기계사업팀",
             "note": "",
             "photo": "photos/mech/신상준.png",
@@ -67,6 +74,7 @@ const DATA = [
           },
           {
             "name": "한수민",
+            "en": "Han Sumin",
             "team": "기계사업팀",
             "note": "",
             "photo": "photos/mech/한수민.png",
@@ -74,6 +82,7 @@ const DATA = [
           },
           {
             "name": "이환규",
+            "en": "Lee Hwangyu",
             "team": "기계사업팀",
             "note": "",
             "photo": "photos/mech/이환규.png",
@@ -81,6 +90,7 @@ const DATA = [
           },
           {
             "name": "박이준",
+            "en": "Park Yijun",
             "team": "기계사업팀",
             "note": "",
             "photo": "photos/mech/박이준.png",
@@ -88,6 +98,7 @@ const DATA = [
           },
           {
             "name": "심은기",
+            "en": "Sim Eungi",
             "team": "기계사업팀",
             "note": "",
             "photo": "photos/mech/심은기.png",
@@ -95,6 +106,7 @@ const DATA = [
           },
           {
             "name": "최승빈",
+            "en": "Choi Seungbin",
             "team": "기계사업팀",
             "note": "",
             "photo": "photos/mech/최승빈.png",
@@ -109,6 +121,7 @@ const DATA = [
         "members": [
           {
             "name": "정대교",
+            "en": "Jung Daegyo",
             "team": "구조사업팀",
             "note": "",
             "photo": "photos/struct/정대교.png",
@@ -116,6 +129,7 @@ const DATA = [
           },
           {
             "name": "이정우",
+            "en": "Lee Jungwoo",
             "team": "구조사업팀",
             "note": "",
             "photo": "photos/struct/이정우.png",
@@ -123,6 +137,7 @@ const DATA = [
           },
           {
             "name": "전준언",
+            "en": "Jeon Juneon",
             "team": "구조사업팀",
             "note": "",
             "photo": "photos/struct/전준언.png",
@@ -130,6 +145,7 @@ const DATA = [
           },
           {
             "name": "김효진",
+            "en": "Kim Hyojin",
             "team": "구조사업팀",
             "note": "",
             "photo": "photos/struct/김효진.png",
@@ -137,6 +153,7 @@ const DATA = [
           },
           {
             "name": "강희용",
+            "en": "Kang Heeyong",
             "team": "구조사업팀",
             "note": "",
             "photo": "photos/struct/강희용.png",
@@ -144,6 +161,7 @@ const DATA = [
           },
           {
             "name": "이선벽",
+            "en": "Lee Seonbyeok",
             "team": "구조사업팀",
             "note": "",
             "photo": "photos/struct/이선벽.png",
@@ -151,6 +169,7 @@ const DATA = [
           },
           {
             "name": "조원규",
+            "en": "Jo Wongyu",
             "team": "구조사업팀",
             "note": "",
             "photo": "photos/struct/조원규.png",
@@ -158,6 +177,7 @@ const DATA = [
           },
           {
             "name": "배동민",
+            "en": "Bae Dongmin",
             "team": "구조사업팀",
             "note": "",
             "photo": "photos/struct/배동민.png",
@@ -165,6 +185,7 @@ const DATA = [
           },
           {
             "name": "박준혁",
+            "en": "Park Junhyuk",
             "team": "구조사업팀",
             "note": "",
             "photo": "photos/struct/박준혁.png",
@@ -172,6 +193,7 @@ const DATA = [
           },
           {
             "name": "임정현",
+            "en": "Lim Jeonghyeon",
             "team": "구조사업팀",
             "note": "",
             "photo": "photos/struct/임정현.png",
@@ -179,6 +201,7 @@ const DATA = [
           },
           {
             "name": "김민재",
+            "en": "Kim Minjae",
             "team": "구조사업팀",
             "note": "",
             "photo": "photos/struct/김민재.png",
@@ -193,6 +216,7 @@ const DATA = [
         "members": [
           {
             "name": "신의균",
+            "en": "Shin Euigyun",
             "team": "건축사업팀",
             "note": "",
             "photo": "photos/arch/신의균.png",
@@ -200,6 +224,7 @@ const DATA = [
           },
           {
             "name": "강재석",
+            "en": "Kang Jaeseok",
             "team": "건축사업팀",
             "note": "",
             "photo": "photos/arch/강재석.png",
@@ -207,6 +232,7 @@ const DATA = [
           },
           {
             "name": "이준희",
+            "en": "Lee Junhee",
             "team": "건축사업팀",
             "note": "",
             "photo": "photos/arch/이준희.png",
@@ -214,6 +240,7 @@ const DATA = [
           },
           {
             "name": "정민교",
+            "en": "Jeong Minkyo",
             "team": "건축사업팀",
             "note": "",
             "photo": "photos/arch/정민교.png",
@@ -221,6 +248,7 @@ const DATA = [
           },
           {
             "name": "이환주",
+            "en": "Lee Hwanju",
             "team": "건축사업팀",
             "note": "",
             "photo": "photos/arch/이환주.png",
@@ -228,6 +256,7 @@ const DATA = [
           },
           {
             "name": "김용준",
+            "en": "Kim Yongjoon",
             "team": "건축사업팀",
             "note": "",
             "photo": "photos/arch/김용준.png",
@@ -235,6 +264,7 @@ const DATA = [
           },
           {
             "name": "최민주",
+            "en": "Choi Minju",
             "team": "건축사업팀",
             "note": "",
             "photo": "photos/arch/최민주.png",
@@ -242,6 +272,7 @@ const DATA = [
           },
           {
             "name": "김승래",
+            "en": "Kim Seungrae",
             "team": "건축사업팀",
             "note": "",
             "photo": "photos/arch/김승래.png",
@@ -249,6 +280,7 @@ const DATA = [
           },
           {
             "name": "김승준",
+            "en": "Kim Seungjun",
             "team": "건축사업팀",
             "note": "",
             "photo": "photos/arch/김승준.png",
@@ -263,6 +295,7 @@ const DATA = [
         "members": [
           {
             "name": "강소라",
+            "en": "Kang Sora",
             "team": "지반사업팀",
             "note": "",
             "photo": "photos/geo/강소라.png",
@@ -270,6 +303,7 @@ const DATA = [
           },
           {
             "name": "김기봉",
+            "en": "Kim Kibong",
             "team": "지반사업팀",
             "note": "",
             "photo": "photos/geo/김기봉.png",
@@ -277,6 +311,7 @@ const DATA = [
           },
           {
             "name": "전제석",
+            "en": "Jeon Jeseok",
             "team": "지반사업팀",
             "note": "",
             "photo": "photos/geo/전제석.png",
@@ -284,6 +319,7 @@ const DATA = [
           },
           {
             "name": "조원준",
+            "en": "Cho Wonjun",
             "team": "지반사업팀",
             "note": "",
             "photo": "photos/geo/조원준.png",
@@ -291,6 +327,7 @@ const DATA = [
           },
           {
             "name": "최용준",
+            "en": "Choi Yongjun",
             "team": "지반사업팀",
             "note": "",
             "photo": "photos/geo/최용준.png",
@@ -298,6 +335,7 @@ const DATA = [
           },
           {
             "name": "이종훈",
+            "en": "Lee Jonghun",
             "team": "지반사업팀",
             "note": "",
             "photo": "photos/geo/이종훈.png",
@@ -305,6 +343,7 @@ const DATA = [
           },
           {
             "name": "조재은",
+            "en": "Cho Jaeeun",
             "team": "지반사업팀",
             "note": "",
             "photo": "photos/geo/조재은.png",
@@ -312,6 +351,7 @@ const DATA = [
           },
           {
             "name": "배일근",
+            "en": "Bae Ilgeun",
             "team": "지반사업팀",
             "note": "",
             "photo": "photos/geo/배일근.png",
@@ -319,6 +359,7 @@ const DATA = [
           },
           {
             "name": "채형진",
+            "en": "Chae Hyungjin",
             "team": "지반사업팀",
             "note": "",
             "photo": "photos/geo/채형진.png",
@@ -339,6 +380,7 @@ const DATA = [
         "members": [
           {
             "name": "강현규",
+            "en": "Kyle Kang",
             "team": "ENR TF",
             "note": "",
             "photo": "photos/enr/강현규.png",
@@ -346,6 +388,7 @@ const DATA = [
           },
           {
             "name": "신상현",
+            "en": "Leo Shin",
             "team": "ENR TF",
             "note": "",
             "photo": "photos/enr/신상현.png",
@@ -353,6 +396,7 @@ const DATA = [
           },
           {
             "name": "이경찬",
+            "en": "Marshall Lee",
             "team": "ENR TF",
             "note": "",
             "photo": "photos/enr/이경찬.png",
@@ -360,6 +404,7 @@ const DATA = [
           },
           {
             "name": "최유민",
+            "en": "Ralf Choi",
             "team": "ENR TF",
             "note": "",
             "photo": "photos/enr/최유민.png",
@@ -367,6 +412,7 @@ const DATA = [
           },
           {
             "name": "서승우",
+            "en": "Eiden Seo",
             "team": "ENR TF",
             "note": "",
             "photo": "photos/enr/서승우.png",
@@ -374,6 +420,7 @@ const DATA = [
           },
           {
             "name": "홍수정",
+            "en": "Crystal Hong",
             "team": "ENR TF",
             "note": "인턴",
             "photo": "photos/enr/홍수정.png",
@@ -381,6 +428,7 @@ const DATA = [
           },
           {
             "name": "강기훈",
+            "en": "David Kang",
             "team": "ENR TF",
             "note": "호주",
             "photo": "photos/enr/강기훈.png",
@@ -388,6 +436,7 @@ const DATA = [
           },
           {
             "name": "에드가",
+            "en": "Edgar De Los Santos",
             "team": "ENR TF",
             "note": "미주",
             "photo": "photos/enr/에드가.png",
@@ -395,6 +444,7 @@ const DATA = [
           },
           {
             "name": "니킬",
+            "en": "Nikhil Batlanki",
             "team": "ENR TF",
             "note": "인도",
             "photo": "photos/enr/니킬.png",
@@ -409,6 +459,7 @@ const DATA = [
         "members": [
           {
             "name": "홍기성",
+            "en": "Eddie Hong",
             "team": "아시아사업팀",
             "note": "",
             "photo": "photos/asia/홍기성.png",
@@ -416,6 +467,7 @@ const DATA = [
           },
           {
             "name": "손준걸",
+            "en": "Dennis Son",
             "team": "아시아사업팀",
             "note": "",
             "photo": "photos/asia/손준걸.png",
@@ -423,6 +475,7 @@ const DATA = [
           },
           {
             "name": "최영호",
+            "en": "Choi, Youngho",
             "team": "아시아사업팀",
             "note": "",
             "photo": "photos/asia/최영호.png",
@@ -430,6 +483,7 @@ const DATA = [
           },
           {
             "name": "윤영웅",
+            "en": "Yoon Youngwoong",
             "team": "아시아사업팀",
             "note": "",
             "photo": "photos/asia/윤영웅.png",
@@ -437,6 +491,7 @@ const DATA = [
           },
           {
             "name": "임승규",
+            "en": "Lim Seungkyu",
             "team": "아시아사업팀",
             "note": "",
             "photo": "photos/asia/임승규.png",
@@ -444,6 +499,7 @@ const DATA = [
           },
           {
             "name": "최규완",
+            "en": "Choi Kyuwan",
             "team": "아시아사업팀",
             "note": "",
             "photo": "photos/asia/최규완.png",
@@ -451,6 +507,7 @@ const DATA = [
           },
           {
             "name": "안계명",
+            "en": "An Kyemyung",
             "team": "아시아사업팀",
             "note": "",
             "photo": "photos/asia/안계명.png",
@@ -458,6 +515,7 @@ const DATA = [
           },
           {
             "name": "이범근",
+            "en": "Win Lee",
             "team": "아시아사업팀",
             "note": "",
             "photo": "photos/asia/이범근.png",
@@ -465,6 +523,7 @@ const DATA = [
           },
           {
             "name": "박철우",
+            "en": "Park Chulwoo",
             "team": "아시아사업팀",
             "note": "",
             "photo": "photos/asia/박철우.png",
@@ -472,6 +531,7 @@ const DATA = [
           },
           {
             "name": "한현택",
+            "en": "Hahn Hyuntaek",
             "team": "아시아사업팀",
             "note": "",
             "photo": "photos/asia/한현택.png",
@@ -479,6 +539,7 @@ const DATA = [
           },
           {
             "name": "박성호",
+            "en": "Park Sungho",
             "team": "아시아사업팀",
             "note": "",
             "photo": "photos/asia/박성호.png",
@@ -486,6 +547,7 @@ const DATA = [
           },
           {
             "name": "박성수",
+            "en": "Park Seongsoo",
             "team": "아시아사업팀",
             "note": "",
             "photo": "photos/asia/박성수.png",
@@ -493,6 +555,7 @@ const DATA = [
           },
           {
             "name": "안휘빈",
+            "en": "Ahn Hwibin",
             "team": "아시아사업팀",
             "note": "",
             "photo": "photos/asia/안휘빈.png",
@@ -500,6 +563,7 @@ const DATA = [
           },
           {
             "name": "정지영",
+            "en": "Jung Jiyoung",
             "team": "아시아사업팀",
             "note": "",
             "photo": "photos/asia/정지영.png",
@@ -507,6 +571,7 @@ const DATA = [
           },
           {
             "name": "정민영",
+            "en": "Jeong Minyoung",
             "team": "아시아사업팀",
             "note": "",
             "photo": "photos/asia/정민영.png",
@@ -514,6 +579,7 @@ const DATA = [
           },
           {
             "name": "정승완",
+            "en": "Jeong Seungwan",
             "team": "아시아사업팀",
             "note": "",
             "photo": "photos/asia/정승완.png",
@@ -521,6 +587,7 @@ const DATA = [
           },
           {
             "name": "오동현",
+            "en": "Oh Donghyun",
             "team": "아시아사업팀",
             "note": "",
             "photo": "photos/asia/오동현.png",
@@ -528,6 +595,7 @@ const DATA = [
           },
           {
             "name": "박하림",
+            "en": "Park Harim",
             "team": "아시아사업팀",
             "note": "",
             "photo": "photos/asia/박하림.png",
@@ -535,6 +603,7 @@ const DATA = [
           },
           {
             "name": "김규보",
+            "en": "Kim Gyubo",
             "team": "아시아사업팀",
             "note": "인턴",
             "photo": "photos/asia/김규보.png",
@@ -542,6 +611,7 @@ const DATA = [
           },
           {
             "name": "팟파신",
+            "en": "Phatpasin Samprasit",
             "team": "아시아사업팀",
             "note": "",
             "photo": "photos/asia/팟파신.png",
@@ -549,6 +619,7 @@ const DATA = [
           },
           {
             "name": "끼앗싸꾼",
+            "en": "Kiatsakul Khalasai",
             "team": "아시아사업팀",
             "note": "",
             "photo": "photos/asia/끼앗싸꾼.png",
@@ -556,6 +627,7 @@ const DATA = [
           },
           {
             "name": "응우웬 투 탕",
+            "en": "Nguyễn Từ Thắng",
             "team": "아시아사업팀",
             "note": "",
             "photo": "photos/asia/응우웬 투 탕.png",
@@ -576,6 +648,7 @@ const DATA = [
         "members": [
           {
             "name": "이은경",
+            "en": "Lee Eunkyung",
             "team": "설계개발팀",
             "note": "",
             "photo": "photos/design-dev/이은경.png",
@@ -583,6 +656,7 @@ const DATA = [
           },
           {
             "name": "안재오",
+            "en": "Ahn Jaeoh",
             "team": "설계개발팀",
             "note": "",
             "photo": "photos/design-dev/안재오.png",
@@ -590,6 +664,7 @@ const DATA = [
           },
           {
             "name": "김승준",
+            "en": "Kim Seungjun",
             "team": "설계개발팀",
             "note": "",
             "photo": "photos/design-dev/김승준.png",
@@ -597,6 +672,7 @@ const DATA = [
           },
           {
             "name": "이시암",
+            "en": "Lee Siam",
             "team": "설계개발팀",
             "note": "",
             "photo": "photos/design-dev/이시암.png",
@@ -604,6 +680,7 @@ const DATA = [
           },
           {
             "name": "최배성",
+            "en": "Choi Baisung",
             "team": "설계개발팀",
             "note": "",
             "photo": "photos/design-dev/최배성.png",
@@ -611,6 +688,7 @@ const DATA = [
           },
           {
             "name": "김현덕",
+            "en": "Kim Hyundeok",
             "team": "설계개발팀",
             "note": "",
             "photo": "photos/design-dev/김현덕.png",
@@ -618,6 +696,7 @@ const DATA = [
           },
           {
             "name": "안태준",
+            "en": "Ahn Taejun",
             "team": "설계개발팀",
             "note": "",
             "photo": "photos/design-dev/안태준.png",
@@ -625,6 +704,7 @@ const DATA = [
           },
           {
             "name": "이승훈",
+            "en": "Lee Seunghoon",
             "team": "설계개발팀",
             "note": "",
             "photo": "photos/design-dev/이승훈.png",
@@ -632,6 +712,7 @@ const DATA = [
           },
           {
             "name": "홍정모",
+            "en": "Hong Jeongmo",
             "team": "설계개발팀",
             "note": "",
             "photo": "photos/design-dev/홍정모.png",
@@ -639,6 +720,7 @@ const DATA = [
           },
           {
             "name": "김종남",
+            "en": "Kim Jongnam",
             "team": "설계개발팀",
             "note": "",
             "photo": "photos/design-dev/김종남.png",
@@ -646,6 +728,7 @@ const DATA = [
           },
           {
             "name": "배상현",
+            "en": "Bae Sanghyun",
             "team": "설계개발팀",
             "note": "",
             "photo": "photos/design-dev/배상현.png",
@@ -653,6 +736,7 @@ const DATA = [
           },
           {
             "name": "김준호",
+            "en": "Kim Junho",
             "team": "설계개발팀",
             "note": "",
             "photo": "photos/design-dev/김준호.png",
@@ -660,6 +744,7 @@ const DATA = [
           },
           {
             "name": "박찬석",
+            "en": "Park Chanseok",
             "team": "설계개발팀",
             "note": "",
             "photo": "photos/design-dev/박찬석.png",
@@ -667,6 +752,7 @@ const DATA = [
           },
           {
             "name": "문성혁",
+            "en": "Moon Seonghyeok",
             "team": "설계개발팀",
             "note": "",
             "photo": "photos/design-dev/문성혁.png",
@@ -674,6 +760,7 @@ const DATA = [
           },
           {
             "name": "류지승",
+            "en": "Ryu Jeeseung",
             "team": "설계개발팀",
             "note": "",
             "photo": "photos/design-dev/류지승.png",
@@ -681,6 +768,7 @@ const DATA = [
           },
           {
             "name": "소정은",
+            "en": "So Jeongeun",
             "team": "설계개발팀",
             "note": "",
             "photo": "photos/design-dev/소정은.png",
@@ -688,6 +776,7 @@ const DATA = [
           },
           {
             "name": "장재욱",
+            "en": "Jang Jaeuk",
             "team": "설계개발팀",
             "note": "",
             "photo": "photos/design-dev/장재욱.png",
@@ -702,6 +791,7 @@ const DATA = [
         "members": [
           {
             "name": "박현재",
+            "en": "Park Hyunjae",
             "team": "엔솔개발팀",
             "note": "",
             "photo": "photos/ensol-dev/박현재.png",
@@ -709,6 +799,7 @@ const DATA = [
           },
           {
             "name": "정진상",
+            "en": "Chung Jinsang",
             "team": "엔솔개발팀",
             "note": "",
             "photo": "photos/ensol-dev/정진상.png",
@@ -716,6 +807,7 @@ const DATA = [
           },
           {
             "name": "이수민",
+            "en": "Lee Sumin",
             "team": "엔솔개발팀",
             "note": "",
             "photo": "photos/ensol-dev/이수민.png",
@@ -723,6 +815,7 @@ const DATA = [
           },
           {
             "name": "허문석",
+            "en": "Huh Moonseok",
             "team": "엔솔개발팀",
             "note": "",
             "photo": "photos/ensol-dev/허문석.png",
@@ -730,6 +823,7 @@ const DATA = [
           },
           {
             "name": "우성운",
+            "en": "Woo Sungwoon",
             "team": "엔솔개발팀",
             "note": "",
             "photo": "photos/ensol-dev/우성운.png",
@@ -737,6 +831,7 @@ const DATA = [
           },
           {
             "name": "함성훈",
+            "en": "Ham Sunghun",
             "team": "엔솔개발팀",
             "note": "",
             "photo": "photos/ensol-dev/함성훈.png",
@@ -744,6 +839,7 @@ const DATA = [
           },
           {
             "name": "서기홍",
+            "en": "Seo Kihong",
             "team": "엔솔개발팀",
             "note": "",
             "photo": "photos/ensol-dev/서기홍.png",
@@ -751,6 +847,7 @@ const DATA = [
           },
           {
             "name": "윤장호",
+            "en": "Yun Jangho",
             "team": "엔솔개발팀",
             "note": "",
             "photo": "photos/ensol-dev/윤장호.png",
@@ -758,6 +855,7 @@ const DATA = [
           },
           {
             "name": "권정우",
+            "en": "Kwon Jeongwoo",
             "team": "엔솔개발팀",
             "note": "",
             "photo": "photos/ensol-dev/권정우.png",
@@ -765,6 +863,7 @@ const DATA = [
           },
           {
             "name": "장형상",
+            "en": "Jang Hyungsang",
             "team": "엔솔개발팀",
             "note": "",
             "photo": "photos/ensol-dev/장형상.png",
@@ -772,6 +871,7 @@ const DATA = [
           },
           {
             "name": "정향희",
+            "en": "Jung Hyanghee",
             "team": "엔솔개발팀",
             "note": "",
             "photo": "photos/ensol-dev/정향희.png",
@@ -779,6 +879,7 @@ const DATA = [
           },
           {
             "name": "박경식",
+            "en": "Park Kyungsik",
             "team": "엔솔개발팀",
             "note": "",
             "photo": "photos/ensol-dev/박경식.png",
@@ -786,6 +887,7 @@ const DATA = [
           },
           {
             "name": "강승한",
+            "en": "Kang Seunghan",
             "team": "엔솔개발팀",
             "note": "",
             "photo": "photos/ensol-dev/강승한.png",
@@ -793,6 +895,7 @@ const DATA = [
           },
           {
             "name": "박건태",
+            "en": "Park Kuntae",
             "team": "엔솔개발팀",
             "note": "",
             "photo": "photos/ensol-dev/박건태.png",
@@ -800,6 +903,7 @@ const DATA = [
           },
           {
             "name": "장창현",
+            "en": "Jang Changhyun",
             "team": "엔솔개발팀",
             "note": "",
             "photo": "photos/ensol-dev/장창현.png",
@@ -807,6 +911,7 @@ const DATA = [
           },
           {
             "name": "상예찬",
+            "en": "Sang Yechan",
             "team": "엔솔개발팀",
             "note": "",
             "photo": "photos/ensol-dev/상예찬.png",
@@ -814,6 +919,7 @@ const DATA = [
           },
           {
             "name": "서충원",
+            "en": "Seo Chungwon",
             "team": "엔솔개발팀",
             "note": "",
             "photo": "photos/ensol-dev/서충원.png",
@@ -828,6 +934,7 @@ const DATA = [
         "members": [
           {
             "name": "이혜연",
+            "en": "Lee Hyeyeon",
             "team": "기술기획팀",
             "note": "",
             "photo": "photos/tech-plan/이혜연.png",
@@ -835,6 +942,7 @@ const DATA = [
           },
           {
             "name": "이대근",
+            "en": "Lee Daekeun",
             "team": "기술기획팀",
             "note": "",
             "photo": "photos/tech-plan/이대근.png",
@@ -842,6 +950,7 @@ const DATA = [
           },
           {
             "name": "김동진",
+            "en": "Kim Dongjin",
             "team": "기술기획팀",
             "note": "",
             "photo": "photos/tech-plan/김동진.png",
@@ -849,6 +958,7 @@ const DATA = [
           },
           {
             "name": "김선우",
+            "en": "Kim Sunwoo",
             "team": "기술기획팀",
             "note": "",
             "photo": "photos/tech-plan/김선우.png",
@@ -856,6 +966,7 @@ const DATA = [
           },
           {
             "name": "김태국",
+            "en": "Kim Taegook",
             "team": "기술기획팀",
             "note": "",
             "photo": "photos/tech-plan/김태국.png",
@@ -863,6 +974,7 @@ const DATA = [
           },
           {
             "name": "박상렬",
+            "en": "Park Sangryul",
             "team": "기술기획팀",
             "note": "",
             "photo": "photos/tech-plan/박상렬.png",
@@ -870,6 +982,7 @@ const DATA = [
           },
           {
             "name": "하성열",
+            "en": "Ha Sungyoul",
             "team": "기술기획팀",
             "note": "",
             "photo": "photos/tech-plan/하성열.png",
@@ -877,6 +990,7 @@ const DATA = [
           },
           {
             "name": "이승진",
+            "en": "Lee Seungjin",
             "team": "기술기획팀",
             "note": "",
             "photo": "photos/tech-plan/이승진.png",
@@ -884,6 +998,7 @@ const DATA = [
           },
           {
             "name": "이현민",
+            "en": "Lee Hyunmin",
             "team": "기술기획팀",
             "note": "",
             "photo": "photos/tech-plan/이현민.png",
@@ -891,6 +1006,7 @@ const DATA = [
           },
           {
             "name": "박재욱",
+            "en": "Park Jaewook",
             "team": "기술기획팀",
             "note": "",
             "photo": "photos/tech-plan/박재욱.png",
@@ -898,6 +1014,7 @@ const DATA = [
           },
           {
             "name": "최은주",
+            "en": "Choi Eunju",
             "team": "기술기획팀",
             "note": "",
             "photo": "photos/tech-plan/최은주.png",
@@ -918,6 +1035,7 @@ const DATA = [
         "members": [
           {
             "name": "신대석",
+            "en": "Shin Daeseock",
             "team": "MAX TF",
             "note": "",
             "photo": "photos/max/신대석.png",
@@ -925,6 +1043,7 @@ const DATA = [
           },
           {
             "name": "심후성",
+            "en": "Sim Husung",
             "team": "MAX TF",
             "note": "",
             "photo": "photos/max/심후성.png",
@@ -932,6 +1051,7 @@ const DATA = [
           },
           {
             "name": "박시형",
+            "en": "Park Sihyong",
             "team": "MAX TF",
             "note": "",
             "photo": "photos/max/박시형.png",
@@ -939,6 +1059,7 @@ const DATA = [
           },
           {
             "name": "장훈",
+            "en": "Jang Hun",
             "team": "MAX TF",
             "note": "",
             "photo": "photos/max/장훈.png",
@@ -946,6 +1067,7 @@ const DATA = [
           },
           {
             "name": "박영준",
+            "en": "Park Youngjun",
             "team": "MAX TF",
             "note": "",
             "photo": "photos/max/박영준.png",
@@ -953,6 +1075,7 @@ const DATA = [
           },
           {
             "name": "허영욱",
+            "en": "Hur Youngwook",
             "team": "MAX TF",
             "note": "",
             "photo": "photos/max/허영욱.png",
@@ -960,6 +1083,7 @@ const DATA = [
           },
           {
             "name": "김현",
+            "en": "Kim Hyun",
             "team": "MAX TF",
             "note": "",
             "photo": "photos/max/김현.png",
@@ -967,6 +1091,7 @@ const DATA = [
           },
           {
             "name": "김민섭",
+            "en": "Kim Minseop",
             "team": "MAX TF",
             "note": "",
             "photo": "photos/max/김민섭.png",
@@ -974,6 +1099,7 @@ const DATA = [
           },
           {
             "name": "김정빈",
+            "en": "Kim Jungbin",
             "team": "MAX TF",
             "note": "",
             "photo": "photos/max/김정빈.png",
@@ -981,6 +1107,7 @@ const DATA = [
           },
           {
             "name": "변창언",
+            "en": "Byun Changeon",
             "team": "MAX TF",
             "note": "",
             "photo": "photos/max/변창언.png",
@@ -988,6 +1115,7 @@ const DATA = [
           },
           {
             "name": "윤재웅",
+            "en": "Yun Jaewoong",
             "team": "MAX TF",
             "note": "",
             "photo": "photos/max/윤재웅.png",
@@ -995,6 +1123,7 @@ const DATA = [
           },
           {
             "name": "박찬우",
+            "en": "Park Chanwoo",
             "team": "MAX TF",
             "note": "",
             "photo": "photos/max/박찬우.png",
@@ -1002,6 +1131,7 @@ const DATA = [
           },
           {
             "name": "고종혁",
+            "en": "Ko Jonghyuk",
             "team": "MAX TF",
             "note": "",
             "photo": "photos/max/고종혁.png",
@@ -1009,6 +1139,7 @@ const DATA = [
           },
           {
             "name": "김준우",
+            "en": "Kim Joonwoo",
             "team": "MAX TF",
             "note": "",
             "photo": "photos/max/김준우.png",
@@ -1016,6 +1147,7 @@ const DATA = [
           },
           {
             "name": "이준서",
+            "en": "Lee Junseo",
             "team": "MAX TF",
             "note": "",
             "photo": "photos/max/이준서.png",
@@ -1030,6 +1162,7 @@ const DATA = [
         "members": [
           {
             "name": "김용수",
+            "en": "Kim Yongsu",
             "team": "모티브개발팀",
             "note": "",
             "photo": "photos/motiv/김용수.png",
@@ -1037,6 +1170,7 @@ const DATA = [
           },
           {
             "name": "도기봉",
+            "en": "Do Kibong",
             "team": "모티브개발팀",
             "note": "",
             "photo": "photos/motiv/도기봉.png",
@@ -1044,6 +1178,7 @@ const DATA = [
           },
           {
             "name": "손영민",
+            "en": "Son Youngmin",
             "team": "모티브개발팀",
             "note": "",
             "photo": "photos/motiv/손영민.png",
@@ -1051,6 +1186,7 @@ const DATA = [
           },
           {
             "name": "서상준",
+            "en": "Seo Sangjun",
             "team": "모티브개발팀",
             "note": "",
             "photo": "photos/motiv/서상준.png",
@@ -1058,6 +1194,7 @@ const DATA = [
           },
           {
             "name": "조해용",
+            "en": "Cho Haeyong",
             "team": "모티브개발팀",
             "note": "",
             "photo": "photos/motiv/조해용.png",
@@ -1065,6 +1202,7 @@ const DATA = [
           },
           {
             "name": "김지원",
+            "en": "Kim Jiwon",
             "team": "모티브개발팀",
             "note": "",
             "photo": "photos/motiv/김지원.png",
@@ -1072,6 +1210,7 @@ const DATA = [
           },
           {
             "name": "김상리",
+            "en": "Kim Sangrin",
             "team": "모티브개발팀",
             "note": "",
             "photo": "photos/motiv/김상리.png",
@@ -1079,6 +1218,7 @@ const DATA = [
           },
           {
             "name": "유상진",
+            "en": "You Sangjin",
             "team": "모티브개발팀",
             "note": "",
             "photo": "photos/motiv/유상진.png",
@@ -1086,6 +1226,7 @@ const DATA = [
           },
           {
             "name": "최승원",
+            "en": "Choi Seungwon",
             "team": "모티브개발팀",
             "note": "",
             "photo": "photos/motiv/최승원.png",
@@ -1093,6 +1234,7 @@ const DATA = [
           },
           {
             "name": "신형진",
+            "en": "Shin Hyeongjin",
             "team": "모티브개발팀",
             "note": "인턴",
             "photo": "photos/motiv/신형진.png",
@@ -1107,6 +1249,7 @@ const DATA = [
         "members": [
           {
             "name": "이승현",
+            "en": "Lee Seung Hyun",
             "team": "웹서비스개발팀",
             "note": "",
             "photo": "photos/web-service/이승현.png",
@@ -1114,6 +1257,7 @@ const DATA = [
           },
           {
             "name": "이의현",
+            "en": "Lee Uihyun",
             "team": "웹서비스개발팀",
             "note": "",
             "photo": "photos/web-service/이의현.png",
@@ -1121,6 +1265,7 @@ const DATA = [
           },
           {
             "name": "조도연",
+            "en": "Cho Doyeon",
             "team": "웹서비스개발팀",
             "note": "",
             "photo": "photos/web-service/조도연.png",
@@ -1128,6 +1273,7 @@ const DATA = [
           },
           {
             "name": "신민우",
+            "en": "Shin Minwoo",
             "team": "웹서비스개발팀",
             "note": "",
             "photo": "photos/web-service/신민우.png",
@@ -1135,6 +1281,7 @@ const DATA = [
           },
           {
             "name": "김현규",
+            "en": "Kim Hyeongyu",
             "team": "웹서비스개발팀",
             "note": "",
             "photo": "photos/web-service/김현규.png",
@@ -1142,6 +1289,7 @@ const DATA = [
           },
           {
             "name": "황정혜",
+            "en": "Hwang Junghye",
             "team": "웹서비스개발팀",
             "note": "",
             "photo": "photos/web-service/황정혜.png",
@@ -1149,6 +1297,7 @@ const DATA = [
           },
           {
             "name": "이찬",
+            "en": "Lee Chan",
             "team": "웹서비스개발팀",
             "note": "",
             "photo": "photos/web-service/이찬.png",
@@ -1156,6 +1305,7 @@ const DATA = [
           },
           {
             "name": "김건휘",
+            "en": "Kim Geonhwi",
             "team": "웹서비스개발팀",
             "note": "",
             "photo": "photos/web-service/김건휘.png",
@@ -1163,6 +1313,7 @@ const DATA = [
           },
           {
             "name": "한강섭",
+            "en": "Han Kangsub",
             "team": "웹서비스개발팀",
             "note": "",
             "photo": "photos/web-service/한강섭.png",
@@ -1170,6 +1321,7 @@ const DATA = [
           },
           {
             "name": "김승수",
+            "en": "Kim Seungsu",
             "team": "웹서비스개발팀",
             "note": "",
             "photo": "photos/web-service/김승수.png",
@@ -1184,6 +1336,7 @@ const DATA = [
         "members": [
           {
             "name": "하성우",
+            "en": "Ha Sungwoo",
             "team": "온사이트개발팀",
             "note": "",
             "photo": "photos/onsite/하성우.png",
@@ -1191,6 +1344,7 @@ const DATA = [
           },
           {
             "name": "이태헌",
+            "en": "Lee Taeheon",
             "team": "온사이트개발팀",
             "note": "",
             "photo": "photos/onsite/이태헌.png",
@@ -1198,6 +1352,7 @@ const DATA = [
           },
           {
             "name": "박동근",
+            "en": "Park Dong Geun",
             "team": "온사이트개발팀",
             "note": "",
             "photo": "photos/onsite/박동근.png",
@@ -1205,6 +1360,7 @@ const DATA = [
           },
           {
             "name": "양현승",
+            "en": "Yang Hyunseung",
             "team": "온사이트개발팀",
             "note": "",
             "photo": "photos/onsite/양현승.png",
@@ -1212,6 +1368,7 @@ const DATA = [
           },
           {
             "name": "최진원",
+            "en": "Choi Jinwon",
             "team": "온사이트개발팀",
             "note": "",
             "photo": "photos/onsite/최진원.png",
@@ -1219,6 +1376,7 @@ const DATA = [
           },
           {
             "name": "김관홍",
+            "en": "Kim Kwanhong",
             "team": "온사이트개발팀",
             "note": "",
             "photo": "photos/onsite/김관홍.png",
@@ -1226,6 +1384,7 @@ const DATA = [
           },
           {
             "name": "이정현",
+            "en": "Lee Junghyun",
             "team": "온사이트개발팀",
             "note": "",
             "photo": "photos/onsite/이정현.png",
@@ -1233,6 +1392,7 @@ const DATA = [
           },
           {
             "name": "황병훈",
+            "en": "Hwang Byung Hun",
             "team": "온사이트개발팀",
             "note": "",
             "photo": "photos/onsite/황병훈.png",
@@ -1240,6 +1400,7 @@ const DATA = [
           },
           {
             "name": "윤장호",
+            "en": "Yoon Jangho",
             "team": "온사이트개발팀",
             "note": "인턴",
             "photo": "photos/onsite/윤장호.png",
@@ -1260,6 +1421,7 @@ const DATA = [
         "members": [
           {
             "name": "이준호",
+            "en": "Jason Lee",
             "team": "미주법인",
             "note": "",
             "photo": "photos/us/이준호.png",
@@ -1267,6 +1429,7 @@ const DATA = [
           },
           {
             "name": "박지훈",
+            "en": "Louis Park",
             "team": "미주법인",
             "note": "",
             "photo": "photos/us/박지훈.png",
@@ -1274,6 +1437,7 @@ const DATA = [
           },
           {
             "name": "한정묘",
+            "en": "Ellie Han",
             "team": "미주법인",
             "note": "",
             "photo": "photos/us/한정묘.png",
@@ -1281,6 +1445,7 @@ const DATA = [
           },
           {
             "name": "이근협",
+            "en": "Axel Lee",
             "team": "남미법인",
             "note": "",
             "photo": "photos/us/이근협.png",
@@ -1288,6 +1453,7 @@ const DATA = [
           },
           {
             "name": "알란",
+            "en": "Alan Alexis Rivas Acevedo",
             "team": "남미법인",
             "note": "",
             "photo": "photos/us/알란.png",
@@ -1295,6 +1461,7 @@ const DATA = [
           },
           {
             "name": "호라시오",
+            "en": "Horacio De Jesus Nangullasmu Hernandez",
             "team": "남미법인",
             "note": "",
             "photo": "photos/us/호라시오.png",
@@ -1302,6 +1469,7 @@ const DATA = [
           },
           {
             "name": "소피아",
+            "en": "Sofia Pimiento Restrepo",
             "team": "남미법인",
             "note": "",
             "photo": "photos/us/소피아.png",
@@ -1309,6 +1477,7 @@ const DATA = [
           },
           {
             "name": "안드레스",
+            "en": "Andres Mauricio Lozano Briceno",
             "team": "남미법인",
             "note": "",
             "photo": "photos/us/안드레스.png",
@@ -1316,6 +1485,7 @@ const DATA = [
           },
           {
             "name": "대니엘",
+            "en": "Daniel Restrepo",
             "team": "남미법인",
             "note": "",
             "photo": "photos/us/대니엘.png",
@@ -1323,6 +1493,7 @@ const DATA = [
           },
           {
             "name": "루세로",
+            "en": "Lucero Rivas",
             "team": "남미법인",
             "note": "",
             "photo": "photos/us/루세로.png",
@@ -1337,6 +1508,7 @@ const DATA = [
         "members": [
           {
             "name": "신정호",
+            "en": "Shin Jungho",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/신정호.png",
@@ -1344,6 +1516,7 @@ const DATA = [
           },
           {
             "name": "윤성민",
+            "en": "Yeun Seongmin",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/윤성민.png",
@@ -1351,6 +1524,7 @@ const DATA = [
           },
           {
             "name": "김재모",
+            "en": "Kim Jaemo",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/김재모.png",
@@ -1358,6 +1532,7 @@ const DATA = [
           },
           {
             "name": "송재경",
+            "en": "Song Jaekyung",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/송재경.png",
@@ -1365,6 +1540,7 @@ const DATA = [
           },
           {
             "name": "최동철",
+            "en": "Choi Dongchul",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/최동철.png",
@@ -1372,6 +1548,7 @@ const DATA = [
           },
           {
             "name": "전장웅",
+            "en": "Tian Changxiong",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/전장웅.png",
@@ -1379,6 +1556,7 @@ const DATA = [
           },
           {
             "name": "김경환",
+            "en": "Kim Kyunghwan",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/김경환.png",
@@ -1386,6 +1564,7 @@ const DATA = [
           },
           {
             "name": "히로세",
+            "en": "Hirose Eiju",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/히로세.png",
@@ -1393,6 +1572,7 @@ const DATA = [
           },
           {
             "name": "신승윤",
+            "en": "Shin Seungyun",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/신승윤.png",
@@ -1400,6 +1580,7 @@ const DATA = [
           },
           {
             "name": "임채호",
+            "en": "Lim Chaeho",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/임채호.png",
@@ -1407,6 +1588,7 @@ const DATA = [
           },
           {
             "name": "김은영",
+            "en": "Kim Eunyeong",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/김은영.png",
@@ -1414,6 +1596,7 @@ const DATA = [
           },
           {
             "name": "신동우",
+            "en": "Shin Dongwoo",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/신동우.png",
@@ -1421,6 +1604,7 @@ const DATA = [
           },
           {
             "name": "이한규",
+            "en": "Lee Hangyu",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/이한규.png",
@@ -1428,6 +1612,7 @@ const DATA = [
           },
           {
             "name": "오세훈",
+            "en": "Oh Sehoon",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/오세훈.png",
@@ -1435,6 +1620,7 @@ const DATA = [
           },
           {
             "name": "후지이",
+            "en": "Fujii Yuya",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/후지이.png",
@@ -1442,6 +1628,7 @@ const DATA = [
           },
           {
             "name": "이지우",
+            "en": "Yi Jiwoo",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/이지우.png",
@@ -1449,6 +1636,7 @@ const DATA = [
           },
           {
             "name": "이종석",
+            "en": "Lee Jongseok",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/이종석.png",
@@ -1456,6 +1644,7 @@ const DATA = [
           },
           {
             "name": "김정민",
+            "en": "Kim Jungmin",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/김정민.png",
@@ -1463,6 +1652,7 @@ const DATA = [
           },
           {
             "name": "장용재",
+            "en": "Jang Yongjae",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/장용재.png",
@@ -1470,6 +1660,7 @@ const DATA = [
           },
           {
             "name": "엄태현",
+            "en": "Eom Taehyun",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/엄태현.png",
@@ -1477,6 +1668,7 @@ const DATA = [
           },
           {
             "name": "김준기",
+            "en": "Kim Junki",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/김준기.png",
@@ -1484,6 +1676,7 @@ const DATA = [
           },
           {
             "name": "권오준",
+            "en": "Kwon Ohjun",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/권오준.png",
@@ -1491,6 +1684,7 @@ const DATA = [
           },
           {
             "name": "김혜정",
+            "en": "Kim Hyejung",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/김혜정.png",
@@ -1498,6 +1692,7 @@ const DATA = [
           },
           {
             "name": "정진홍",
+            "en": "Jung Jinhong",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/정진홍.png",
@@ -1505,6 +1700,7 @@ const DATA = [
           },
           {
             "name": "조민현",
+            "en": "Cho Minhyun",
             "team": "일본법인",
             "note": "",
             "photo": "photos/japan/조민현.png",
@@ -1519,6 +1715,7 @@ const DATA = [
         "members": [
           {
             "name": "강올레그",
+            "en": "Oleg Kan",
             "team": "러시아법인",
             "note": "",
             "photo": "photos/russia/강올레그.png",
@@ -1526,6 +1723,7 @@ const DATA = [
           },
           {
             "name": "콘스탄틴",
+            "en": "Konstantin Skorobagatko",
             "team": "러시아법인",
             "note": "",
             "photo": "photos/russia/콘스탄틴.png",
@@ -1533,6 +1731,7 @@ const DATA = [
           },
           {
             "name": "예고르",
+            "en": "Egor Desyatnikov",
             "team": "러시아법인",
             "note": "",
             "photo": "photos/russia/예고르.png",
@@ -1540,6 +1739,7 @@ const DATA = [
           },
           {
             "name": "크리스티나",
+            "en": "Kristina Pataraya",
             "team": "러시아법인",
             "note": "",
             "photo": "photos/russia/크리스티나.png",
@@ -1547,6 +1747,7 @@ const DATA = [
           },
           {
             "name": "블라디미르",
+            "en": "Vladimir Lee",
             "team": "러시아법인",
             "note": "",
             "photo": "photos/russia/블라디미르.png",
@@ -1554,6 +1755,7 @@ const DATA = [
           },
           {
             "name": "예카테리나",
+            "en": "Ekaterina Solodova",
             "team": "러시아법인",
             "note": "",
             "photo": "photos/russia/예카테리나.png",
@@ -1561,6 +1763,7 @@ const DATA = [
           },
           {
             "name": "예브게니",
+            "en": "Evgeniy Yudintsev",
             "team": "러시아법인",
             "note": "",
             "photo": "photos/russia/예브게니.png",
@@ -1568,6 +1771,7 @@ const DATA = [
           },
           {
             "name": "안나",
+            "en": "Anna Odnokopylova",
             "team": "러시아법인",
             "note": "",
             "photo": "photos/russia/안나.png",
@@ -1575,6 +1779,7 @@ const DATA = [
           },
           {
             "name": "옥사나",
+            "en": "Oksana Panina",
             "team": "러시아법인",
             "note": "",
             "photo": "photos/russia/옥사나.png",
@@ -1589,6 +1794,7 @@ const DATA = [
         "members": [
           {
             "name": "라비",
+            "en": "Naga Ravi Kiran Anne",
             "team": "인도법인",
             "note": "",
             "photo": "photos/india/라비.png",
@@ -1596,6 +1802,7 @@ const DATA = [
           },
           {
             "name": "아시시",
+            "en": "Ashishi Loya",
             "team": "인도법인",
             "note": "",
             "photo": "photos/india/아시시.png",
@@ -1603,6 +1810,7 @@ const DATA = [
           },
           {
             "name": "난딥",
+            "en": "Nandeep Gohil",
             "team": "인도법인",
             "note": "",
             "photo": "photos/india/난딥.png",
@@ -1610,6 +1818,7 @@ const DATA = [
           },
           {
             "name": "아얀",
+            "en": "Ayan Srivastava",
             "team": "인도법인",
             "note": "",
             "photo": "photos/india/아얀.png",
@@ -1617,6 +1826,7 @@ const DATA = [
           },
           {
             "name": "리샤브",
+            "en": "Rishav Prasad",
             "team": "인도법인",
             "note": "",
             "photo": "photos/india/리샤브.png",
@@ -1624,6 +1834,7 @@ const DATA = [
           },
           {
             "name": "싯다르타",
+            "en": "Siddartha",
             "team": "인도법인",
             "note": "",
             "photo": "photos/india/싯다르타.png",
@@ -1631,6 +1842,7 @@ const DATA = [
           },
           {
             "name": "자예쉬",
+            "en": "Jayesh Darshane",
             "team": "인도법인",
             "note": "",
             "photo": "photos/india/자예쉬.png",
@@ -1638,6 +1850,7 @@ const DATA = [
           },
           {
             "name": "프라하르샤",
+            "en": "Praharsha Gade",
             "team": "인도법인",
             "note": "",
             "photo": "photos/india/프라하르샤.png",
@@ -1645,6 +1858,7 @@ const DATA = [
           },
           {
             "name": "시타람",
+            "en": "Seetharam Tirupathimuhanthi",
             "team": "인도법인",
             "note": "",
             "photo": "photos/india/시타람.png",
@@ -1652,6 +1866,7 @@ const DATA = [
           },
           {
             "name": "바탄",
+            "en": "Vatan Sharma",
             "team": "인도법인",
             "note": "",
             "photo": "photos/india/바탄.png",
@@ -1659,6 +1874,7 @@ const DATA = [
           },
           {
             "name": "마헤시",
+            "en": "Mahesh Surla",
             "team": "인도법인",
             "note": "",
             "photo": "photos/india/마헤시.png",
@@ -1666,6 +1882,7 @@ const DATA = [
           },
           {
             "name": "니사르그",
+            "en": "Nisarg Shah",
             "team": "인도법인",
             "note": "",
             "photo": "photos/india/니사르그.png",
@@ -1673,6 +1890,7 @@ const DATA = [
           },
           {
             "name": "카부스 타쿠르",
+            "en": "Qaboos Thakur",
             "team": "인도법인",
             "note": "",
             "photo": "photos/india/카부스 타쿠르.png",
@@ -1680,6 +1898,7 @@ const DATA = [
           },
           {
             "name": "디비얀쉬",
+            "en": "Divyansh Pandey",
             "team": "인도법인",
             "note": "",
             "photo": "photos/india/디비얀쉬.png",
@@ -1687,6 +1906,7 @@ const DATA = [
           },
           {
             "name": "사티암",
+            "en": "Satyam Jain",
             "team": "인도법인",
             "note": "",
             "photo": "photos/india/사티암.png",
@@ -1701,6 +1921,7 @@ const DATA = [
         "members": [
           {
             "name": "정승식",
+            "en": "Jeong Seungsig",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/정승식.png",
@@ -1708,6 +1929,7 @@ const DATA = [
           },
           {
             "name": "성종수",
+            "en": "Sung Jongsu",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/성종수.png",
@@ -1715,6 +1937,7 @@ const DATA = [
           },
           {
             "name": "김경환",
+            "en": "Kim Kyounghwan",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/김경환.png",
@@ -1722,6 +1945,7 @@ const DATA = [
           },
           {
             "name": "라강림",
+            "en": "Luo Jianglin",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/라강림.png",
@@ -1729,6 +1953,7 @@ const DATA = [
           },
           {
             "name": "오림호",
+            "en": "Wu Linhu",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/오림호.png",
@@ -1736,6 +1961,7 @@ const DATA = [
           },
           {
             "name": "장검명",
+            "en": "Zhang Jianming",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/장검명.png",
@@ -1743,6 +1969,7 @@ const DATA = [
           },
           {
             "name": "정팅",
+            "en": "Zheng Ting",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/정팅.png",
@@ -1750,6 +1977,7 @@ const DATA = [
           },
           {
             "name": "리나",
+            "en": "Li Na",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/리나.png",
@@ -1757,6 +1985,7 @@ const DATA = [
           },
           {
             "name": "위신",
+            "en": "Yu Xin",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/위신.png",
@@ -1764,6 +1993,7 @@ const DATA = [
           },
           {
             "name": "리빈",
+            "en": "Li Bin",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/리빈.png",
@@ -1771,6 +2001,7 @@ const DATA = [
           },
           {
             "name": "팽해군",
+            "en": "Peng Haijun",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/팽해군.png",
@@ -1778,6 +2009,7 @@ const DATA = [
           },
           {
             "name": "당효동",
+            "en": "Tang Xiaodong",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/당효동.png",
@@ -1785,6 +2017,7 @@ const DATA = [
           },
           {
             "name": "마문학",
+            "en": "Ma Wenxue",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/마문학.png",
@@ -1792,6 +2025,7 @@ const DATA = [
           },
           {
             "name": "조몽기",
+            "en": "Cao Mengqi",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/조몽기.png",
@@ -1799,6 +2033,7 @@ const DATA = [
           },
           {
             "name": "김민호",
+            "en": "Jin Minhao",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/김민호.png",
@@ -1806,6 +2041,7 @@ const DATA = [
           },
           {
             "name": "김해룡",
+            "en": "Jin Hailong",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/김해룡.png",
@@ -1813,6 +2049,7 @@ const DATA = [
           },
           {
             "name": "왕평평",
+            "en": "Wang Pingping",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/왕평평.png",
@@ -1820,6 +2057,7 @@ const DATA = [
           },
           {
             "name": "황애령",
+            "en": "Huang Ailing",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/황애령.png",
@@ -1827,6 +2065,7 @@ const DATA = [
           },
           {
             "name": "육수동",
+            "en": "Lu Shuaidong",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/육수동.png",
@@ -1834,6 +2073,7 @@ const DATA = [
           },
           {
             "name": "곽홍량",
+            "en": "Guo Hongliang",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/곽홍량.png",
@@ -1841,6 +2081,7 @@ const DATA = [
           },
           {
             "name": "리업붕",
+            "en": "Li Yepeng",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/리업붕.png",
@@ -1848,6 +2089,7 @@ const DATA = [
           },
           {
             "name": "양로",
+            "en": "Yang Lu",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/양로.png",
@@ -1855,6 +2097,7 @@ const DATA = [
           },
           {
             "name": "장재욱",
+            "en": "Zhang Ziyu",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/장재욱.png",
@@ -1862,6 +2105,7 @@ const DATA = [
           },
           {
             "name": "당하",
+            "en": "Dang Xia",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/당하.png",
@@ -1869,6 +2113,7 @@ const DATA = [
           },
           {
             "name": "강위",
+            "en": "Jiang Wei",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/강위.png",
@@ -1876,6 +2121,7 @@ const DATA = [
           },
           {
             "name": "왕안기",
+            "en": "Wang Anqi",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/왕안기.png",
@@ -1883,6 +2129,7 @@ const DATA = [
           },
           {
             "name": "황우능",
+            "en": "Huang Youneng",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/황우능.png",
@@ -1890,6 +2137,7 @@ const DATA = [
           },
           {
             "name": "황립홍",
+            "en": "Huang Lihong",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/황립홍.png",
@@ -1897,6 +2145,7 @@ const DATA = [
           },
           {
             "name": "왕우명",
+            "en": "Wang Youming",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/왕우명.png",
@@ -1904,6 +2153,7 @@ const DATA = [
           },
           {
             "name": "리남성",
+            "en": "Li Nanxing",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/리남성.png",
@@ -1911,6 +2161,7 @@ const DATA = [
           },
           {
             "name": "유문아",
+            "en": "Liu Wenya",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/유문아.png",
@@ -1918,6 +2169,7 @@ const DATA = [
           },
           {
             "name": "왕천",
+            "en": "Wang Tian",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/왕천.png",
@@ -1925,6 +2177,7 @@ const DATA = [
           },
           {
             "name": "리춘맹",
+            "en": "Li Chunmeng",
             "team": "중국법인",
             "note": "",
             "photo": "photos/china/리춘맹.png",
@@ -1939,6 +2192,7 @@ const DATA = [
         "members": [
           {
             "name": "전상목",
+            "en": "Daniel Jeon",
             "team": "필리핀법인",
             "note": "",
             "photo": "photos/philippines/전상목.png",
@@ -1946,6 +2200,7 @@ const DATA = [
           },
           {
             "name": "최주현",
+            "en": "Ryan Choi",
             "team": "필리핀법인",
             "note": "",
             "photo": "photos/philippines/최주현.png",
@@ -1953,6 +2208,7 @@ const DATA = [
           },
           {
             "name": "제인",
+            "en": "Jane Acosta",
             "team": "필리핀법인",
             "note": "",
             "photo": "photos/philippines/제인.png",
@@ -1960,6 +2216,7 @@ const DATA = [
           },
           {
             "name": "아메드",
+            "en": "Amed Lovendino",
             "team": "필리핀법인",
             "note": "",
             "photo": "photos/philippines/아메드.png",
@@ -1967,6 +2224,7 @@ const DATA = [
           },
           {
             "name": "파울로",
+            "en": "Paulo Calidayan",
             "team": "필리핀법인",
             "note": "",
             "photo": "photos/philippines/파울로.png",
@@ -1974,6 +2232,7 @@ const DATA = [
           },
           {
             "name": "리츠",
+            "en": "Ritz Montevrigen",
             "team": "필리핀법인",
             "note": "",
             "photo": "photos/philippines/리츠.png",
@@ -1981,6 +2240,7 @@ const DATA = [
           },
           {
             "name": "마리츠",
+            "en": "Mariz Encomienda",
             "team": "필리핀법인",
             "note": "",
             "photo": "photos/philippines/마리츠.png",
@@ -1988,6 +2248,7 @@ const DATA = [
           },
           {
             "name": "막스",
+            "en": "Max Lambampa",
             "team": "필리핀법인",
             "note": "",
             "photo": "photos/philippines/막스.png",
@@ -1995,6 +2256,7 @@ const DATA = [
           },
           {
             "name": "다이앤",
+            "en": "Dianne Gutierrez",
             "team": "필리핀법인",
             "note": "",
             "photo": "photos/philippines/다이앤.png",
@@ -2002,6 +2264,7 @@ const DATA = [
           },
           {
             "name": "놀란",
+            "en": "Norlan De Vera",
             "team": "필리핀법인",
             "note": "",
             "photo": "photos/philippines/놀란.png",
@@ -2009,6 +2272,7 @@ const DATA = [
           },
           {
             "name": "라지",
+            "en": "Raji Garcia",
             "team": "필리핀법인",
             "note": "",
             "photo": "photos/philippines/라지.png",
@@ -2016,6 +2280,7 @@ const DATA = [
           },
           {
             "name": "테사",
+            "en": "Tessa",
             "team": "필리핀법인",
             "note": "",
             "photo": "photos/philippines/테사.png",
@@ -2023,6 +2288,7 @@ const DATA = [
           },
           {
             "name": "마리",
+            "en": "Mari",
             "team": "필리핀법인",
             "note": "",
             "photo": "photos/philippines/마리.png",
@@ -2037,6 +2303,7 @@ const DATA = [
         "members": [
           {
             "name": "김창범",
+            "en": "Edmond Kim",
             "team": "호주법인",
             "note": "",
             "photo": "photos/australia/김창범.png",
@@ -2044,6 +2311,7 @@ const DATA = [
           },
           {
             "name": "하르샤",
+            "en": "Harsha Tadavarthi",
             "team": "호주법인",
             "note": "",
             "photo": "photos/australia/하르샤.png",
@@ -2051,6 +2319,7 @@ const DATA = [
           },
           {
             "name": "최종규",
+            "en": "Nicholas Choi",
             "team": "호주법인",
             "note": "",
             "photo": "photos/australia/최종규.png",
@@ -2058,6 +2327,7 @@ const DATA = [
           },
           {
             "name": "프라납",
+            "en": "Pranav Vaishampayan",
             "team": "호주법인",
             "note": "",
             "photo": "photos/australia/프라납.png",
@@ -2065,6 +2335,7 @@ const DATA = [
           },
           {
             "name": "최춘화",
+            "en": "Chloe Choi",
             "team": "호주법인",
             "note": "",
             "photo": "photos/australia/최춘화.png",
@@ -2079,6 +2350,7 @@ const DATA = [
         "members": [
           {
             "name": "이현수",
+            "en": "Vito Lee",
             "team": "유럽사업팀",
             "note": "",
             "photo": "photos/europe/이현수.png",
@@ -2086,6 +2358,7 @@ const DATA = [
           },
           {
             "name": "양재석",
+            "en": "Yang Jaeseok",
             "team": "유럽사업팀",
             "note": "",
             "photo": "photos/europe/양재석.png",
@@ -2093,6 +2366,7 @@ const DATA = [
           },
           {
             "name": "진병엽",
+            "en": "Jin Byungyup",
             "team": "유럽사업팀",
             "note": "",
             "photo": "photos/europe/진병엽.png",
@@ -2100,6 +2374,7 @@ const DATA = [
           },
           {
             "name": "양상현",
+            "en": "Yang Sanghyun",
             "team": "유럽사업팀",
             "note": "",
             "photo": "photos/europe/양상현.png",
@@ -2107,6 +2382,7 @@ const DATA = [
           },
           {
             "name": "김희진",
+            "en": "Kim Heejin",
             "team": "유럽사업팀",
             "note": "",
             "photo": "photos/europe/김희진.png",
@@ -2114,6 +2390,7 @@ const DATA = [
           },
           {
             "name": "권성현",
+            "en": "Sunny Kwon",
             "team": "유럽법인",
             "note": "",
             "photo": "photos/europe/권성현.png",
@@ -2121,6 +2398,7 @@ const DATA = [
           },
           {
             "name": "이진솔",
+            "en": "Lee Jinsol",
             "team": "유럽법인",
             "note": "",
             "photo": "photos/europe/이진솔.png",
@@ -2128,6 +2406,7 @@ const DATA = [
           },
           {
             "name": "마노즈",
+            "en": "Manoj Kheterpal",
             "team": "유럽법인",
             "note": "",
             "photo": "photos/europe/마노즈.png",
@@ -2135,6 +2414,7 @@ const DATA = [
           },
           {
             "name": "보우차",
+            "en": "Boucha Oussama",
             "team": "유럽법인",
             "note": "",
             "photo": "photos/europe/보우차.png",
@@ -2142,6 +2422,7 @@ const DATA = [
           },
           {
             "name": "로힛",
+            "en": "Rohit",
             "team": "유럽법인",
             "note": "",
             "photo": "photos/europe/로힛.png",
@@ -2149,6 +2430,7 @@ const DATA = [
           },
           {
             "name": "오수빈",
+            "en": "Oh Subin",
             "team": "유럽법인",
             "note": "",
             "photo": "photos/europe/오수빈.png",
