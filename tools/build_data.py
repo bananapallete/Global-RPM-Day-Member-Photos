@@ -48,15 +48,101 @@ DIVISIONS = [
 # 카드 소속 표기 시 치환 (좌석배치도와 동일하게 북미법인 → 미주법인)
 TEAM_LABEL_RENAME = {"북미법인": "미주법인"}
 
+# 팀 id → 영문명 시트(data/names_en.tsv)의 소속명
+SHEET_TEAM_BY_ID = {
+    "nambu": "Southern BIZ TF",
+    "mech": "Mechanical BIZ Team",
+    "struct": "Structural BIZ Team",
+    "arch": "Architecture BIZ Team",
+    "geo": "Geotechnical BIZ Team",
+    "enr": "ENR TF",
+    "asia": "Asia BIZ Team",
+    "design-dev": "Design DEV Team",
+    "ensol-dev": "EnSol DEV Team",
+    "tech-plan": "Technical Planning Team",
+    "max": "MAX TF",
+    "motiv": "MOTIIV DEV Team",
+    "web-service": "Web Services DEV Team",
+    "us": "North America Branch",
+    "japan": "Japan Branch",
+    "russia": "Russia Branch",
+    "india": "India Branch",
+    "china": "China Branch",
+    "philippines": "Philippine Branch",
+    "australia": "Australia Branch",
+    "europe": "Europe BIZ Team",
+}
+
+# 시트에 없거나 동명이인으로 자동 매칭이 불가능한 경우의 수동 지정
+# (※ 시트 미기재 인원의 영문명은 통상 로마자 표기 기준 — 확정 표기가 나오면 교체)
+MANUAL_EN = {
+    ("onsite", "윤장호"): "Yoon Jangho",   # 지반사업팀 명단(인턴) — 엔솔개발팀 Yun Jangho와 동명이인
+    ("europe", "로힛"): "Rohit",           # 시트 미기재
+    ("europe", "오수빈"): "Oh Subin",       # 시트 미기재
+    ("japan", "이종석"): "Lee Jongseok",    # 이하 시트 미기재
+    ("japan", "김정민"): "Kim Jungmin",
+    ("japan", "장용재"): "Jang Yongjae",
+    ("japan", "엄태현"): "Eom Taehyun",
+    ("japan", "김준기"): "Kim Junki",
+    ("japan", "권오준"): "Kwon Ohjun",
+    ("japan", "김혜정"): "Kim Hyejung",
+    ("japan", "정진홍"): "Jung Jinhong",
+    ("japan", "조민현"): "Cho Minhyun",
+    ("china", "리업붕"): "Li Yepeng",
+    ("china", "유문아"): "Liu Wenya",
+    ("philippines", "테사"): "Tessa",
+    ("philippines", "마리"): "Mari",
+}
+
+
+def load_en_rows():
+    rows = []
+    with open(os.path.join(ROOT, "data", "names_en.tsv"), encoding="utf-8") as f:
+        for line in f:
+            line = line.rstrip("\n")
+            if not line or line.startswith("#"):
+                continue
+            kr, en, team = line.split("\t")
+            rows.append((kr, en, team))
+    return rows
+
+
+def make_en_lookup(rows):
+    by_team = {}
+    by_name = {}
+    for kr, en, team in rows:
+        by_team.setdefault((team, kr), en)
+        by_name.setdefault(kr, set()).add(en)
+
+    def lookup(team_id, name):
+        if (team_id, name) in MANUAL_EN:
+            return MANUAL_EN[(team_id, name)]
+        sheet_team = SHEET_TEAM_BY_ID.get(team_id)
+        if sheet_team and (sheet_team, name) in by_team:
+            return by_team[(sheet_team, name)]
+        cands = by_name.get(name, set())
+        if len(cands) == 1:
+            return next(iter(cands))
+        # 시트에는 전체 이름("히로세 에이쥬"), 사이트에는 앞부분("히로세")만 있는 경우
+        prefix = {en for kr, en in ((k, e) for k, s in by_name.items() for e in s)
+                  if kr.startswith(name + " ")}
+        if len(prefix) == 1:
+            return prefix.pop()
+        return None
+
+    return lookup
+
 
 def main():
     with open(os.path.join(ROOT, "data", "members.json"), encoding="utf-8") as f:
         raw = json.load(f)
 
     by_section = {s["sectionName"]: s["members"] for s in raw["sections"]}
+    en_lookup = make_en_lookup(load_en_rows())
 
     divisions = []
     total = 0
+    missing_en = []
     for div in DIVISIONS:
         teams = []
         for name in div["teams"]:
@@ -67,8 +153,12 @@ def main():
                 fname = m["name"] + ".png"
                 if not os.path.exists(os.path.join(ROOT, "photos", folder, fname)):
                     raise SystemExit(f"missing photo: {folder}/{fname}")
+                en_name = en_lookup(cfg["id"], m["name"])
+                if not en_name:
+                    missing_en.append(f"{cfg['id']}/{m['name']}")
                 members.append({
                     "name": m["name"],
+                    "en": en_name or "",
                     "team": TEAM_LABEL_RENAME.get(m["team"], m["team"]),
                     "note": m.get("note", ""),
                     "photo": f"photos/{folder}/{m['name']}.png",
@@ -84,6 +174,8 @@ def main():
     with open(os.path.join(ROOT, "js", "data.js"), "w", encoding="utf-8") as f:
         f.write(out)
     print(f"js/data.js generated — {total} members")
+    if missing_en:
+        print(f"[warn] 영문명 미매칭 {len(missing_en)}명: " + ", ".join(missing_en))
 
 
 if __name__ == "__main__":
