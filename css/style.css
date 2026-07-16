@@ -244,6 +244,9 @@ body {
   object-fit: cover;
   object-position: top center;
   display: block;
+  /* 카드와 동일한 바스트샷 크롭 */
+  transform: scale(1.45);
+  transform-origin: 50% 10%;
 }
 
 .hero-card-name {
@@ -447,6 +450,9 @@ body {
   object-fit: cover;
   object-position: top center;
   display: block;
+  /* 전신 구도 원본을 바스트샷(얼굴~가슴)으로 확대 크롭 */
+  transform: scale(1.45);
+  transform-origin: 50% 10%;
 }
 
 .card-name {
