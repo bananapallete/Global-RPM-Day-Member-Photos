@@ -18,7 +18,7 @@
   const I18N = {
     ko: {
       title: "프로필 갤러리",
-      sub: "7월 15일을 뜨겁게 달궜던 구성원들의 재밌는 사진을 만나보세요",
+      sub: "행사를 뜨겁게 달궜던 구성원들의 사진을 만나보세요",
       back: "전체 사업부",
       memberCount: function (n) { return "구성원 " + n + "명"; },
       btnCount: function (n) { return n + "명"; },
@@ -28,7 +28,7 @@
     },
     en: {
       title: "Profile Gallery",
-      sub: "Enjoy the fun photos of the members who lit up July 15",
+      sub: "Enjoy the photos of the members who lit up the event",
       back: "All Divisions",
       memberCount: function (n) { return n + " members"; },
       btnCount: function (n) { return String(n); },
