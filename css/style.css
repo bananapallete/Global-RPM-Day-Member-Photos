@@ -470,14 +470,6 @@ body {
 .card-name.long { font-size: clamp(17px, 3.1vw, 21px); line-height: 1.25; }
 .card-name.xlong { font-size: clamp(14px, 2.7vw, 17px); line-height: 1.3; }
 
-.card-name .note {
-  font-size: 0.55em;
-  font-weight: 600;
-  color: var(--caption);
-  vertical-align: middle;
-  margin-left: 5px;
-}
-
 .card-team {
   margin-top: -8px;
   font-size: clamp(13px, 2.6vw, 15px);

@@ -38,8 +38,6 @@
     },
   };
 
-  const NOTE_EN = { "인턴": "Intern", "호주": "Australia", "미주": "Americas", "인도": "India" };
-
   const LANG_KEY = "rpm-gallery-lang";
   let lang = localStorage.getItem(LANG_KEY);
   if (lang !== "ko" && lang !== "en") lang = null;
@@ -48,11 +46,6 @@
 
   function memberName(m) {
     return lang === "en" ? (m.en || m.name) : m.name;
-  }
-
-  function memberNote(m) {
-    if (!m.note) return "";
-    return lang === "en" ? (NOTE_EN[m.note] || m.note) : m.note;
   }
 
   const teamById = {};
@@ -226,13 +219,6 @@
       if (displayName.length > 24) name.classList.add("xlong");
       else if (displayName.length > 14) name.classList.add("long");
       name.textContent = displayName;
-      const noteText = memberNote(m);
-      if (noteText) {
-        const note = document.createElement("span");
-        note.className = "note";
-        note.textContent = noteText;
-        name.appendChild(note);
-      }
 
       const teamLabel = document.createElement("p");
       teamLabel.className = "card-team";
