@@ -78,7 +78,6 @@ SHEET_TEAM_BY_ID = {
 MANUAL_EN = {
     ("onsite", "윤장호"): "Yoon Jangho",   # 지반사업팀 명단(인턴) — 엔솔개발팀 Yun Jangho와 동명이인
     ("europe", "로힛"): "Rohit",           # 시트 미기재
-    ("europe", "오수빈"): "Oh Subin",       # 시트 미기재
     ("japan", "이종석"): "Lee Jongseok",    # 이하 시트 미기재
     ("japan", "김정민"): "Kim Jungmin",
     ("japan", "장용재"): "Jang Yongjae",

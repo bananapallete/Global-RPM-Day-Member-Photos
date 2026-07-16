@@ -2263,14 +2263,6 @@ const DATA = [
             "thumb": "thumbs/philippines/다이앤.webp"
           },
           {
-            "name": "놀란",
-            "en": "Norlan De Vera",
-            "team": "필리핀법인",
-            "note": "",
-            "photo": "photos/philippines/놀란.png",
-            "thumb": "thumbs/philippines/놀란.webp"
-          },
-          {
             "name": "라지",
             "en": "Raji Garcia",
             "team": "필리핀법인",
@@ -2427,14 +2419,6 @@ const DATA = [
             "note": "",
             "photo": "photos/europe/로힛.png",
             "thumb": "thumbs/europe/로힛.webp"
-          },
-          {
-            "name": "오수빈",
-            "en": "Oh Subin",
-            "team": "유럽법인",
-            "note": "",
-            "photo": "photos/europe/오수빈.png",
-            "thumb": "thumbs/europe/오수빈.webp"
           }
         ]
       }
