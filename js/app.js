@@ -302,13 +302,8 @@
 
   window.addEventListener("hashchange", route);
 
-  /* ---------- 초기화: 첫 방문이면 언어 선택 팝업 ---------- */
-  if (lang) {
-    applyLang();
-  } else {
-    lang = "ko"; // 팝업 뒤 배경은 국문으로 렌더
-    applyLang();
-    lang = null;
-    langModalEl.hidden = false;
-  }
+  /* ---------- 초기화: 접속할 때마다 언어 선택 팝업 표시 ---------- */
+  if (!lang) lang = "ko"; // 팝업 뒤 배경 기본 언어
+  applyLang();
+  langModalEl.hidden = false;
 })();
