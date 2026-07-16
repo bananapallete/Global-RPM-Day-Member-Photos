@@ -58,10 +58,63 @@
     div.teams.forEach(function (t) { teamById[t.id] = t; });
   });
 
+  /* ---------- 히어로 롤링 배너: 접속마다 랜덤 구성원 샘플 ---------- */
+  const HERO_COUNT = 12;
+  const heroSample = (function () {
+    const all = [];
+    DATA.forEach(function (div) {
+      div.teams.forEach(function (team) {
+        team.members.forEach(function (m) { all.push({ m: m, team: team }); });
+      });
+    });
+    for (let i = all.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const tmp = all[i]; all[i] = all[j]; all[j] = tmp;
+    }
+    return all.slice(0, HERO_COUNT);
+  })();
+
+  function buildHeroRoll() {
+    const roll = document.createElement("div");
+    roll.className = "hero-roll";
+    const track = document.createElement("div");
+    track.className = "hero-track";
+    // 끊김 없는 무한 루프를 위해 같은 목록을 두 번 이어 붙임
+    for (let copy = 0; copy < 2; copy++) {
+      heroSample.forEach(function (item) {
+        const card = document.createElement("a");
+        card.className = "hero-card";
+        card.href = "#/team/" + item.team.id;
+        if (copy === 1) {
+          card.setAttribute("aria-hidden", "true");
+          card.tabIndex = -1;
+        }
+        const photo = document.createElement("div");
+        photo.className = "hero-card-photo";
+        const img = document.createElement("img");
+        img.src = encodePath(item.m.thumb);
+        img.alt = "";
+        photo.appendChild(img);
+        const nm = document.createElement("p");
+        nm.className = "hero-card-name";
+        nm.textContent = memberName(item.m);
+        const tm = document.createElement("p");
+        tm.className = "hero-card-team";
+        tm.textContent = lang === "en" ? item.team.en : item.team.kr;
+        card.append(photo, nm, tm);
+        track.appendChild(card);
+      });
+    }
+    track.style.animationDuration = heroSample.length * 3.2 + "s";
+    roll.appendChild(track);
+    return roll;
+  }
+
   /* ---------- 홈 렌더링 ---------- */
   function renderHome() {
     homeEl.replaceChildren();
     const frag = document.createDocumentFragment();
+    frag.appendChild(buildHeroRoll());
     DATA.forEach(function (div) {
       const section = document.createElement("div");
       section.className = "division";
