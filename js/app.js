@@ -107,7 +107,35 @@
     }
     track.style.animationDuration = heroSample.length * 3.2 + "s";
     roll.appendChild(track);
+    ensureHeroRolling(track);
     return roll;
+  }
+
+  // CSS 애니메이션이 동작하지 않는 환경(동작 줄이기 설정, 구형 브라우저 등)에서는
+  // requestAnimationFrame으로 직접 슬라이딩
+  function ensureHeroRolling(track) {
+    setTimeout(function () {
+      if (!track.isConnected) return;
+      const before = getComputedStyle(track).transform;
+      setTimeout(function () {
+        if (!track.isConnected) return;
+        if (getComputedStyle(track).transform !== before) return; // CSS 애니메이션 정상 동작
+        track.style.animation = "none";
+        let x = 0;
+        let last = performance.now();
+        const SPEED = 45; // px/s — CSS 애니메이션과 비슷한 속도
+        function step(now) {
+          if (!track.isConnected) return;
+          x += ((now - last) / 1000) * SPEED;
+          last = now;
+          const half = track.scrollWidth / 2;
+          if (half > 0 && x >= half) x -= half;
+          track.style.transform = "translateX(" + -x + "px)";
+          requestAnimationFrame(step);
+        }
+        requestAnimationFrame(step);
+      }, 700);
+    }, 300);
   }
 
   /* ---------- 홈 렌더링 ---------- */

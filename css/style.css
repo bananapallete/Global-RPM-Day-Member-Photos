@@ -193,15 +193,14 @@ body {
   animation: hero-scroll 38s linear infinite;
 }
 
-.hero-roll:hover .hero-track { animation-play-state: paused; }
+/* 마우스 환경에서만 호버 일시정지 (터치 기기는 탭 후 멈춤 방지) */
+@media (hover: hover) and (pointer: fine) {
+  .hero-roll:hover .hero-track { animation-play-state: paused; }
+}
 
 @keyframes hero-scroll {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .hero-track { animation: none; }
 }
 
 .hero-card {
