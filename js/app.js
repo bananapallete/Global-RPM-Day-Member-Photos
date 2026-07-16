@@ -17,6 +17,7 @@
   /* ---------- 다국어 ---------- */
   const I18N = {
     ko: {
+      title: "프로필 갤러리",
       sub: "7월 15일을 뜨겁게 달궜던 구성원들의 재밌는 사진을 만나보세요",
       back: "전체 사업부",
       memberCount: function (n) { return "구성원 " + n + "명"; },
@@ -26,6 +27,7 @@
       toggleLabel: "English",
     },
     en: {
+      title: "Profile Gallery",
       sub: "Enjoy the fun photos of the members who lit up July 15",
       back: "All Divisions",
       memberCount: function (n) { return n + " members"; },
@@ -254,6 +256,7 @@
   function applyLang() {
     document.documentElement.lang = lang === "en" ? "en" : "ko";
     document.body.classList.toggle("lang-en", lang === "en");
+    document.querySelector(".site-title").textContent = t().title;
     siteSubEl.textContent = t().sub;
     backLabelEl.textContent = t().back;
     langToggleBtn.textContent = t().toggleLabel;
