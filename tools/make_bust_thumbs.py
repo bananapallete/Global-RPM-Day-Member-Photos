@@ -6,8 +6,9 @@
 thumbs/ 를 덮어쓴다. 얼굴 미검출 시 배경(균일 스튜디오 톤) 분석으로 머리
 위치·폭을 추정해 같은 프레이밍을 적용한다.
 
-  python3 tools/make_bust_thumbs.py            # 전체 재생성
+  python3 tools/make_bust_thumbs.py            # 전체 재생성 (AI 사진)
   python3 tools/make_bust_thumbs.py geo/강소라  # 일부만 (팀폴더/이름)
+  python3 tools/make_bust_thumbs.py --polo     # 카라티 사진 (photos-polo → thumbs-polo)
 """
 import os
 import sys
@@ -125,10 +126,10 @@ def crop_box(img_bgr):
     return int(left), int(top), int(cw), int(ch), detected
 
 
-def process(rel):
+def process(rel, src_dir="photos", dst_dir="thumbs"):
     team, name = rel.split("/")
-    src = os.path.join(ROOT, "photos", team, name + ".png")
-    dst = os.path.join(ROOT, "thumbs", team, name + ".webp")
+    src = os.path.join(ROOT, src_dir, team, name + ".png")
+    dst = os.path.join(ROOT, dst_dir, team, name + ".webp")
     data = np.fromfile(src, dtype=np.uint8)  # 한글 경로 대응
     img = cv2.imdecode(data, cv2.IMREAD_COLOR)
     x, y, cw, ch, ok = crop_box(img)
@@ -142,12 +143,16 @@ def process(rel):
 
 
 def main():
-    targets = []
-    if len(sys.argv) > 1:
-        targets = sys.argv[1:]
-    else:
-        for team in sorted(os.listdir(os.path.join(ROOT, "photos"))):
-            tdir = os.path.join(ROOT, "photos", team)
+    args = sys.argv[1:]
+    src_dir, dst_dir = "photos", "thumbs"
+    if "--polo" in args:
+        args.remove("--polo")
+        src_dir, dst_dir = "photos-polo", "thumbs-polo"
+
+    targets = args
+    if not targets:
+        for team in sorted(os.listdir(os.path.join(ROOT, src_dir))):
+            tdir = os.path.join(ROOT, src_dir, team)
             if not os.path.isdir(tdir):
                 continue
             for f in sorted(os.listdir(tdir)):
@@ -156,7 +161,7 @@ def main():
 
     no_face = []
     for i, rel in enumerate(targets, 1):
-        if not process(rel):
+        if not process(rel, src_dir, dst_dir):
             no_face.append(rel)
         if i % 40 == 0 or i == len(targets):
             print(f"{i}/{len(targets)} 처리")
