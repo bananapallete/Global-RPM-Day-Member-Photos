@@ -1,8 +1,7 @@
 # 카라티(폴로) 사진 작업 이어하기
 
-> **상태 (2026-07-20):** 다운로드 시도했으나 세션 네트워크 정책이 `www.figma.com`을 차단(프록시 CONNECT 403)해 중단.
-> Figma MCP `download_assets` 호출은 정상 동작하고 노드 매핑도 유효함 — 자산 URL(`www.figma.com/api/mcp/asset/...`)의 curl 저장만 막힘.
-> 해결: Claude Code 환경 설정의 네트워크 정책에서 `www.figma.com` 허용(또는 전체 허용) 후 **새 세션**에서 아래 절차 1부터 재개.
+> **상태: 완료 (2026-07-20)** — 280장 전량 다운로드·검증, thumbs-polo 280장 생성, data.js에 photoPolo/thumbPolo 280건 반영, 브라우저 검증(토글·다운로드 메뉴) 통과.
+> 참고: MCP 자산 URL은 렌더링 완료 전 HTTP 202(빈 응답)를 반환하므로, 202일 때 재시도(폴링)하는 다운로드가 필요함.
 
 이전 세션에서 준비 완료된 것:
 - `data/polo_nodes.json` / `data/polo_download_list.json` — 280명 전원의 Figma 카라티 사진 노드 매핑 (파일 키 `C1LU5goj8vixiJrsht3nTY`)
