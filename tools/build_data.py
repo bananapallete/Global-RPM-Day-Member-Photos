@@ -155,14 +155,20 @@ def main():
                 en_name = en_lookup(cfg["id"], m["name"])
                 if not en_name:
                     missing_en.append(f"{cfg['id']}/{m['name']}")
-                members.append({
+                entry = {
                     "name": m["name"],
                     "en": en_name or "",
                     "team": TEAM_LABEL_RENAME.get(m["team"], m["team"]),
                     "note": m.get("note", ""),
                     "photo": f"photos/{folder}/{m['name']}.png",
                     "thumb": f"thumbs/{folder}/{m['name']}.webp",
-                })
+                }
+                # 카라티(폴로) 사진이 있으면 함께 노출
+                if os.path.exists(os.path.join(
+                        ROOT, "photos-polo", folder, m["name"] + ".png")):
+                    entry["photoPolo"] = f"photos-polo/{folder}/{m['name']}.png"
+                    entry["thumbPolo"] = f"thumbs-polo/{folder}/{m['name']}.webp"
+                members.append(entry)
             total += len(members)
             teams.append({"id": cfg["id"], "kr": cfg["kr"], "en": cfg["en"],
                           "members": members})

@@ -25,6 +25,11 @@
       download: "사진 다운로드",
       photoAlt: function (name) { return name + " 사진"; },
       toggleLabel: "English",
+      viewAi: "AI",
+      viewPolo: "카라티",
+      dlAi: "AI 사진",
+      dlPolo: "카라티 사진",
+      poloSuffix: "_카라티",
     },
     en: {
       title: "Profile Gallery",
@@ -35,6 +40,11 @@
       download: "Download Photo",
       photoAlt: function (name) { return "Photo of " + name; },
       toggleLabel: "한국어",
+      viewAi: "AI",
+      viewPolo: "Polo",
+      dlAi: "AI Photo",
+      dlPolo: "Polo Photo",
+      poloSuffix: "_polo",
     },
   };
 
@@ -212,6 +222,28 @@
       img.loading = "lazy";
       photo.appendChild(img);
 
+      // 카라티 사진이 있으면 AI ↔ 카라티 전환 토글
+      if (m.thumbPolo) {
+        const seg = document.createElement("div");
+        seg.className = "photo-toggle";
+        const btnAi = document.createElement("button");
+        btnAi.type = "button";
+        btnAi.textContent = t().viewAi;
+        btnAi.className = "on";
+        const btnPolo = document.createElement("button");
+        btnPolo.type = "button";
+        btnPolo.textContent = t().viewPolo;
+        function setView(v) {
+          img.src = encodePath(v === "polo" ? m.thumbPolo : m.thumb);
+          btnAi.classList.toggle("on", v === "ai");
+          btnPolo.classList.toggle("on", v === "polo");
+        }
+        btnAi.addEventListener("click", function () { setView("ai"); });
+        btnPolo.addEventListener("click", function () { setView("polo"); });
+        seg.append(btnAi, btnPolo);
+        photo.appendChild(seg);
+      }
+
       const displayName = memberName(m);
       const name = document.createElement("p");
       name.className = "card-name";
@@ -224,19 +256,59 @@
       teamLabel.className = "card-team";
       teamLabel.textContent = lang === "en" ? team.en : m.team;
 
-      const dl = document.createElement("a");
-      dl.className = "card-dl";
-      dl.href = encodePath(m.photo);
-      dl.setAttribute("download", displayName + ".png");
-      dl.innerHTML = '<span></span>' +
-        '<img src="assets/download-icon.svg" alt="" aria-hidden="true" />';
-      dl.querySelector("span").textContent = t().download;
+      let dl;
+      if (m.photoPolo) {
+        // 다운로드 버튼 → AI / 카라티 선택 메뉴
+        dl = document.createElement("div");
+        dl.className = "card-dl-wrap";
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "card-dl";
+        btn.innerHTML = '<span></span>' +
+          '<img src="assets/download-icon.svg" alt="" aria-hidden="true" />';
+        btn.querySelector("span").textContent = t().download;
+        const menu = document.createElement("div");
+        menu.className = "dl-menu";
+        menu.hidden = true;
+        [[t().dlAi, m.photo, displayName + ".png"],
+         [t().dlPolo, m.photoPolo, displayName + t().poloSuffix + ".png"]]
+          .forEach(function (opt) {
+            const a = document.createElement("a");
+            a.href = encodePath(opt[1]);
+            a.setAttribute("download", opt[2]);
+            a.textContent = opt[0];
+            a.addEventListener("click", function () { menu.hidden = true; });
+            menu.appendChild(a);
+          });
+        btn.addEventListener("click", function (e) {
+          e.stopPropagation();
+          const wasHidden = menu.hidden;
+          closeDlMenus();
+          menu.hidden = !wasHidden;
+        });
+        dl.append(menu, btn);
+      } else {
+        dl = document.createElement("a");
+        dl.className = "card-dl";
+        dl.href = encodePath(m.photo);
+        dl.setAttribute("download", displayName + ".png");
+        dl.innerHTML = '<span></span>' +
+          '<img src="assets/download-icon.svg" alt="" aria-hidden="true" />';
+        dl.querySelector("span").textContent = t().download;
+      }
 
       card.append(photo, name, teamLabel, dl);
       frag.appendChild(card);
     });
     cardsEl.appendChild(frag);
   }
+
+  function closeDlMenus() {
+    document.querySelectorAll(".dl-menu").forEach(function (el) {
+      el.hidden = true;
+    });
+  }
+  document.addEventListener("click", closeDlMenus);
 
   /* ---------- 언어 적용 ---------- */
   function applyLang() {

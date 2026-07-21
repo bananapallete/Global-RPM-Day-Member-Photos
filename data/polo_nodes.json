@@ -1,0 +1,1402 @@
+{
+ "유럽법인/보우차": {
+  "polo_node": "4131:19283",
+  "polo_layer": "ChatGPT Image 2026년 6월 13일 오후 06_13_44 1",
+  "dist": 1394
+ },
+ "유럽법인/로힛": {
+  "polo_node": "4131:19286",
+  "polo_layer": "ChatGPT Image 2026년 6월 13일 오후 06_16_55 1",
+  "dist": 1511
+ },
+ "유럽법인/권성현": {
+  "polo_node": "4131:19287",
+  "polo_layer": "ChatGPT Image 2026년 6월 13일 오후 06_17_54 1",
+  "dist": 1248
+ },
+ "유럽법인/이진솔": {
+  "polo_node": "4131:19263",
+  "polo_layer": "ChatGPT Image 2026년 6월 13일 오후 06_17_03 1",
+  "dist": 1253
+ },
+ "유럽법인/이현수": {
+  "polo_node": "4131:19291",
+  "polo_layer": "ChatGPT Image 2026년 6월 13일 오후 06_28_12 1",
+  "dist": 1286
+ },
+ "유럽법인/마노즈": {
+  "polo_node": "4131:19281",
+  "polo_layer": "ChatGPT Image 2026년 6월 13일 오후 06_12_26 1",
+  "dist": 1221
+ },
+ "유럽법인/진병엽": {
+  "polo_node": "4131:20730",
+  "polo_layer": "ChatGPT Image 2026년 6월 13일 오후 06_27_28 1",
+  "dist": 1221
+ },
+ "유럽법인/양상현": {
+  "polo_node": "4131:20718",
+  "polo_layer": "ChatGPT Image 2026년 6월 13일 오후 06_21_39 1",
+  "dist": 1250
+ },
+ "유럽법인/김희진": {
+  "polo_node": "4131:20732",
+  "polo_layer": "ChatGPT Image 2026년 6월 13일 오후 06_24_57 1",
+  "dist": 1511
+ },
+ "유럽법인/양재석": {
+  "polo_node": "4131:20731",
+  "polo_layer": "ChatGPT Image 2026년 6월 13일 오후 06_21_59 1",
+  "dist": 1253
+ },
+ "기계사업팀/이환규": {
+  "polo_node": "4131:18984",
+  "polo_layer": "m1",
+  "dist": 1147
+ },
+ "기계사업팀/윤영환": {
+  "polo_node": "4131:18998",
+  "polo_layer": "m1",
+  "dist": 1185
+ },
+ "기계사업팀/박이준": {
+  "polo_node": "4131:19000",
+  "polo_layer": "m1",
+  "dist": 1248
+ },
+ "기계사업팀/김종성": {
+  "polo_node": "4131:19025",
+  "polo_layer": "cg1",
+  "dist": 1185
+ },
+ "기계사업팀/최승빈": {
+  "polo_node": "4131:19011",
+  "polo_layer": "m1",
+  "dist": 1185
+ },
+ "기계사업팀/심은기": {
+  "polo_node": "4131:19027",
+  "polo_layer": "m1",
+  "dist": 1185
+ },
+ "기계사업팀/한수민": {
+  "polo_node": "4131:19016",
+  "polo_layer": "f3",
+  "dist": 1201
+ },
+ "기계사업팀/신상준": {
+  "polo_node": "4131:19010",
+  "polo_layer": "m1",
+  "dist": 1254
+ },
+ "ENR TF/니킬": {
+  "polo_node": "4131:19318",
+  "polo_layer": "m1",
+  "dist": 1250
+ },
+ "ENR TF/서승우": {
+  "polo_node": "4131:19337",
+  "polo_layer": "m1",
+  "dist": 1168
+ },
+ "ENR TF/강기훈": {
+  "polo_node": "4131:19343",
+  "polo_layer": "cg",
+  "dist": 1253
+ },
+ "ENR TF/신상현": {
+  "polo_node": "4131:19344",
+  "polo_layer": "cg",
+  "dist": 1253
+ },
+ "ENR TF/강현규": {
+  "polo_node": "4131:20336",
+  "polo_layer": "cg",
+  "dist": 795
+ },
+ "ENR TF/이경찬": {
+  "polo_node": "4131:19338",
+  "polo_layer": "m1",
+  "dist": 1168
+ },
+ "ENR TF/최유민": {
+  "polo_node": "4131:19310",
+  "polo_layer": "m1",
+  "dist": 1250
+ },
+ "ENR TF/홍수정": {
+  "polo_node": "4131:19339",
+  "polo_layer": "cg",
+  "dist": 1032
+ },
+ "ENR TF/에드가": {
+  "polo_node": "4131:19341",
+  "polo_layer": "cg",
+  "dist": 1168
+ },
+ "구조사업팀/조원규": {
+  "polo_node": "4131:19220",
+  "polo_layer": "cg",
+  "dist": 1313
+ },
+ "구조사업팀/강희용": {
+  "polo_node": "4131:19218",
+  "polo_layer": "cg",
+  "dist": 1257
+ },
+ "구조사업팀/전준언": {
+  "polo_node": "4131:19216",
+  "polo_layer": "cg",
+  "dist": 1331
+ },
+ "구조사업팀/김효진": {
+  "polo_node": "4131:19217",
+  "polo_layer": "cg",
+  "dist": 1246
+ },
+ "구조사업팀/이정우": {
+  "polo_node": "4131:19213",
+  "polo_layer": "cg",
+  "dist": 1312
+ },
+ "구조사업팀/이선벽": {
+  "polo_node": "4131:19224",
+  "polo_layer": "cg",
+  "dist": 1117
+ },
+ "구조사업팀/배동민": {
+  "polo_node": "4131:19226",
+  "polo_layer": "cg",
+  "dist": 1333
+ },
+ "구조사업팀/박준혁": {
+  "polo_node": "4131:19221",
+  "polo_layer": "cg",
+  "dist": 1209
+ },
+ "구조사업팀/정대교": {
+  "polo_node": "4131:19215",
+  "polo_layer": "cg",
+  "dist": 1180
+ },
+ "구조사업팀/임정현": {
+  "polo_node": "4131:19223",
+  "polo_layer": "cg",
+  "dist": 1098
+ },
+ "구조사업팀/김민재": {
+  "polo_node": "4131:19222",
+  "polo_layer": "cg",
+  "dist": 1271
+ },
+ "남부사업 TF/유명인": {
+  "polo_node": "4131:19161",
+  "polo_layer": "cg",
+  "dist": 1106
+ },
+ "남부사업 TF/이승민": {
+  "polo_node": "4131:19159",
+  "polo_layer": "cg",
+  "dist": 1106
+ },
+ "남부사업 TF/정용근": {
+  "polo_node": "4131:19160",
+  "polo_layer": "cg",
+  "dist": 1106
+ },
+ "남부사업 TF/김세훈": {
+  "polo_node": "4131:20648",
+  "polo_layer": "cg",
+  "dist": 1408
+ },
+ "러시아법인/콘스탄틴": {
+  "polo_node": "4131:19952",
+  "polo_layer": "cg1",
+  "dist": 1481
+ },
+ "러시아법인/강올레그": {
+  "polo_node": "4131:19953",
+  "polo_layer": "cg1",
+  "dist": 1481
+ },
+ "러시아법인/예고르": {
+  "polo_node": "4131:20029",
+  "polo_layer": "cg1",
+  "dist": 1481
+ },
+ "러시아법인/옥사나": {
+  "polo_node": "4131:20031",
+  "polo_layer": "cg1",
+  "dist": 1481
+ },
+ "러시아법인/안나": {
+  "polo_node": "4131:20042",
+  "polo_layer": "cg1",
+  "dist": 1481
+ },
+ "러시아법인/예카테리나": {
+  "polo_node": "4131:20094",
+  "polo_layer": "cg1",
+  "dist": 1481
+ },
+ "러시아법인/블라디미르": {
+  "polo_node": "4131:20095",
+  "polo_layer": "cg1",
+  "dist": 1481
+ },
+ "러시아법인/크리스티나": {
+  "polo_node": "4131:20174",
+  "polo_layer": "cg1",
+  "dist": 1481
+ },
+ "러시아법인/예브게니": {
+  "polo_node": "4131:20175",
+  "polo_layer": "cg1",
+  "dist": 1481
+ },
+ "아시아사업팀/정민영": {
+  "polo_node": "4131:18795",
+  "polo_layer": "cg",
+  "dist": 1413
+ },
+ "아시아사업팀/최규완": {
+  "polo_node": "4131:18853",
+  "polo_layer": "cg",
+  "dist": 1291
+ },
+ "아시아사업팀/홍기성": {
+  "polo_node": "4131:18813",
+  "polo_layer": "cg3",
+  "dist": 1296
+ },
+ "아시아사업팀/임승규": {
+  "polo_node": "4131:19348",
+  "polo_layer": "cg",
+  "dist": 1511
+ },
+ "아시아사업팀/박철우": {
+  "polo_node": "4131:18855",
+  "polo_layer": "cg",
+  "dist": 1394
+ },
+ "아시아사업팀/한현택": {
+  "polo_node": "4131:18914",
+  "polo_layer": "cg",
+  "dist": 1511
+ },
+ "아시아사업팀/이범근": {
+  "polo_node": "4131:19350",
+  "polo_layer": "cg",
+  "dist": 1478
+ },
+ "아시아사업팀/박성호": {
+  "polo_node": "4131:19352",
+  "polo_layer": "cg",
+  "dist": 1291
+ },
+ "아시아사업팀/윤영웅": {
+  "polo_node": "4131:19347",
+  "polo_layer": "cg",
+  "dist": 1394
+ },
+ "아시아사업팀/박하림": {
+  "polo_node": "4131:19384",
+  "polo_layer": "cg",
+  "dist": 1478
+ },
+ "아시아사업팀/정승완": {
+  "polo_node": "4131:18797",
+  "polo_layer": "cg",
+  "dist": 1291
+ },
+ "아시아사업팀/오동현": {
+  "polo_node": "4131:19385",
+  "polo_layer": "cg",
+  "dist": 1442
+ },
+ "아시아사업팀/손준걸": {
+  "polo_node": "4131:18815",
+  "polo_layer": "cg",
+  "dist": 1442
+ },
+ "아시아사업팀/최영호": {
+  "polo_node": "4131:18804",
+  "polo_layer": "cg",
+  "dist": 1478
+ },
+ "아시아사업팀/안계명": {
+  "polo_node": "4131:19349",
+  "polo_layer": "cg",
+  "dist": 1442
+ },
+ "아시아사업팀/안휘빈": {
+  "polo_node": "4131:18917",
+  "polo_layer": "cg",
+  "dist": 1478
+ },
+ "아시아사업팀/박성수": {
+  "polo_node": "4131:19355",
+  "polo_layer": "cg",
+  "dist": 1442
+ },
+ "아시아사업팀/정지영": {
+  "polo_node": "4131:18916",
+  "polo_layer": "cg",
+  "dist": 1394
+ },
+ "아시아사업팀/김규보": {
+  "polo_node": "4131:18799",
+  "polo_layer": "cg",
+  "dist": 1394
+ },
+ "아시아사업팀/끼앗싸꾼": {
+  "polo_node": "4131:20428",
+  "polo_layer": "cg",
+  "dist": 1442
+ },
+ "아시아사업팀/팟파신": {
+  "polo_node": "4131:20426",
+  "polo_layer": "cg",
+  "dist": 1296
+ },
+ "아시아사업팀/응우웬 투 탕": {
+  "polo_node": "4131:20425",
+  "polo_layer": "cg",
+  "dist": 1483
+ },
+ "건축사업팀/이준희": {
+  "polo_node": "4131:19068",
+  "polo_layer": "m2",
+  "dist": 1304
+ },
+ "건축사업팀/강재석": {
+  "polo_node": "4131:19051",
+  "polo_layer": "m3",
+  "dist": 1332
+ },
+ "건축사업팀/정민교": {
+  "polo_node": "4131:19044",
+  "polo_layer": "cg",
+  "dist": 1368
+ },
+ "건축사업팀/김승래": {
+  "polo_node": "4131:19057",
+  "polo_layer": "m2",
+  "dist": 1304
+ },
+ "건축사업팀/신의균": {
+  "polo_node": "4131:19081",
+  "polo_layer": "m2",
+  "dist": 1304
+ },
+ "건축사업팀/최민주": {
+  "polo_node": "4131:19084",
+  "polo_layer": "cg",
+  "dist": 1453
+ },
+ "건축사업팀/김용준": {
+  "polo_node": "4131:19083",
+  "polo_layer": "m3",
+  "dist": 1304
+ },
+ "건축사업팀/이환주": {
+  "polo_node": "4131:19082",
+  "polo_layer": "m0",
+  "dist": 1072
+ },
+ "건축사업팀/김승준": {
+  "polo_node": "4131:19059",
+  "polo_layer": "m0",
+  "dist": 1210
+ },
+ "지반사업팀/강소라": {
+  "polo_node": "4267:18909",
+  "polo_layer": "cg",
+  "dist": 1246
+ },
+ "지반사업팀/조재은": {
+  "polo_node": "4131:19138",
+  "polo_layer": "cg",
+  "dist": 1142
+ },
+ "지반사업팀/김기봉": {
+  "polo_node": "4131:19128",
+  "polo_layer": "cg",
+  "dist": 1142
+ },
+ "지반사업팀/채형진": {
+  "polo_node": "4131:19136",
+  "polo_layer": "cg",
+  "dist": 1004
+ },
+ "지반사업팀/이종훈": {
+  "polo_node": "4131:19133",
+  "polo_layer": "cg",
+  "dist": 1149
+ },
+ "지반사업팀/배일근": {
+  "polo_node": "4131:19131",
+  "polo_layer": "cg",
+  "dist": 1252
+ },
+ "지반사업팀/전제석": {
+  "polo_node": "4131:19135",
+  "polo_layer": "cg",
+  "dist": 1252
+ },
+ "지반사업팀/최용준": {
+  "polo_node": "4131:19129",
+  "polo_layer": "cg",
+  "dist": 1190
+ },
+ "지반사업팀/조원준": {
+  "polo_node": "4131:19130",
+  "polo_layer": "cg",
+  "dist": 1004
+ },
+ "필리핀법인/아메드": {
+  "polo_node": "4131:19389",
+  "polo_layer": "cg",
+  "dist": 1135
+ },
+ "필리핀법인/파울로": {
+  "polo_node": "4131:19391",
+  "polo_layer": "cg",
+  "dist": 1518
+ },
+ "필리핀법인/막스": {
+  "polo_node": "4131:19397",
+  "polo_layer": "cg",
+  "dist": 1176
+ },
+ "필리핀법인/마리츠": {
+  "polo_node": "4131:19400",
+  "polo_layer": "cg",
+  "dist": 1286
+ },
+ "필리핀법인/다이앤": {
+  "polo_node": "4131:19403",
+  "polo_layer": "cg",
+  "dist": 1208
+ },
+ "필리핀법인/전상목": {
+  "polo_node": "4131:19387",
+  "polo_layer": "cg",
+  "dist": 1181
+ },
+ "필리핀법인/최주현": {
+  "polo_node": "4131:19388",
+  "polo_layer": "cg",
+  "dist": 1252
+ },
+ "필리핀법인/제인": {
+  "polo_node": "4131:19399",
+  "polo_layer": "cg",
+  "dist": 1176
+ },
+ "필리핀법인/리츠": {
+  "polo_node": "4131:19402",
+  "polo_layer": "cg",
+  "dist": 1181
+ },
+ "필리핀법인/라지": {
+  "polo_node": "4131:20865",
+  "polo_layer": "cg",
+  "dist": 1535
+ },
+ "필리핀법인/테사": {
+  "polo_node": "4131:20877",
+  "polo_layer": "cg2",
+  "dist": 1325
+ },
+ "필리핀법인/마리": {
+  "polo_node": "4131:20875",
+  "polo_layer": "cg2",
+  "dist": 1185
+ },
+ "호주법인/최종규": {
+  "polo_node": "4131:19587",
+  "polo_layer": "cg",
+  "dist": 1176
+ },
+ "호주법인/최춘화": {
+  "polo_node": "4131:19406",
+  "polo_layer": "cg",
+  "dist": 1176
+ },
+ "호주법인/프라납": {
+  "polo_node": "4131:19588",
+  "polo_layer": "cg",
+  "dist": 1294
+ },
+ "호주법인/김창범": {
+  "polo_node": "4131:19405",
+  "polo_layer": "cg",
+  "dist": 1228
+ },
+ "호주법인/하르샤": {
+  "polo_node": "4131:18937",
+  "polo_layer": "cg",
+  "dist": 1320
+ },
+ "인도법인/아얀": {
+  "polo_node": "4131:20634",
+  "polo_layer": "cg2",
+  "dist": 994
+ },
+ "인도법인/라비": {
+  "polo_node": "4131:20359",
+  "polo_layer": "cg",
+  "dist": 1424
+ },
+ "인도법인/프라하르샤": {
+  "polo_node": "4131:20019",
+  "polo_layer": "cg",
+  "dist": 1424
+ },
+ "인도법인/시타람": {
+  "polo_node": "4131:20020",
+  "polo_layer": "cg",
+  "dist": 1424
+ },
+ "인도법인/리샤브": {
+  "polo_node": "4131:20030",
+  "polo_layer": "cg",
+  "dist": 1424
+ },
+ "인도법인/난딥": {
+  "polo_node": "4131:20032",
+  "polo_layer": "cg",
+  "dist": 1424
+ },
+ "인도법인/자예쉬": {
+  "polo_node": "4131:20043",
+  "polo_layer": "cg",
+  "dist": 1424
+ },
+ "인도법인/아시시": {
+  "polo_node": "4131:20185",
+  "polo_layer": "cg",
+  "dist": 1424
+ },
+ "인도법인/싯다르타": {
+  "polo_node": "4131:20208",
+  "polo_layer": "cg",
+  "dist": 1424
+ },
+ "인도법인/마헤시": {
+  "polo_node": "4131:20209",
+  "polo_layer": "cg",
+  "dist": 1424
+ },
+ "인도법인/바탄": {
+  "polo_node": "4131:20210",
+  "polo_layer": "cg",
+  "dist": 1424
+ },
+ "인도법인/니사르그": {
+  "polo_node": "4131:20211",
+  "polo_layer": "cg",
+  "dist": 1424
+ },
+ "인도법인/카부스 타쿠르": {
+  "polo_node": "4131:20436",
+  "polo_layer": "cg",
+  "dist": 1330
+ },
+ "인도법인/사티암": {
+  "polo_node": "4131:20435",
+  "polo_layer": "cg",
+  "dist": 1424
+ },
+ "인도법인/디비얀쉬": {
+  "polo_node": "4131:20437",
+  "polo_layer": "cg",
+  "dist": 1424
+ },
+ "중국법인/위신": {
+  "polo_node": "4131:20247",
+  "polo_layer": "cg",
+  "dist": 1260
+ },
+ "중국법인/성종수": {
+  "polo_node": "4131:20332",
+  "polo_layer": "cg",
+  "dist": 1381
+ },
+ "중국법인/김경환": {
+  "polo_node": "4131:20333",
+  "polo_layer": "cg",
+  "dist": 1536
+ },
+ "중국법인/리춘맹": {
+  "polo_node": "4131:20471",
+  "polo_layer": "cg",
+  "dist": 1520
+ },
+ "중국법인/오림호": {
+  "polo_node": "4131:20466",
+  "polo_layer": "cg",
+  "dist": 1608
+ },
+ "중국법인/장재욱": {
+  "polo_node": "4131:20483",
+  "polo_layer": "cg",
+  "dist": 1536
+ },
+ "중국법인/정승식": {
+  "polo_node": "4131:20196",
+  "polo_layer": "cg",
+  "dist": 1399
+ },
+ "중국법인/김해룡": {
+  "polo_node": "4131:20504",
+  "polo_layer": "cg",
+  "dist": 1399
+ },
+ "중국법인/왕평평": {
+  "polo_node": "4131:20515",
+  "polo_layer": "cg",
+  "dist": 1381
+ },
+ "중국법인/리빈": {
+  "polo_node": "4131:20497",
+  "polo_layer": "cg",
+  "dist": 1608
+ },
+ "중국법인/황우능": {
+  "polo_node": "4131:20509",
+  "polo_layer": "cg",
+  "dist": 1381
+ },
+ "중국법인/팽해군": {
+  "polo_node": "4131:20491",
+  "polo_layer": "cg",
+  "dist": 1399
+ },
+ "중국법인/리남성": {
+  "polo_node": "4131:20501",
+  "polo_layer": "cg",
+  "dist": 1608
+ },
+ "중국법인/유문아": {
+  "polo_node": "4131:20513",
+  "polo_layer": "cg",
+  "dist": 1412
+ },
+ "중국법인/당하": {
+  "polo_node": "4131:20518",
+  "polo_layer": "cg",
+  "dist": 1260
+ },
+ "중국법인/조몽기": {
+  "polo_node": "4131:20512",
+  "polo_layer": "cg",
+  "dist": 1260
+ },
+ "중국법인/왕안기": {
+  "polo_node": "4131:20495",
+  "polo_layer": "cg",
+  "dist": 1399
+ },
+ "중국법인/양로": {
+  "polo_node": "4131:20516",
+  "polo_layer": "cg",
+  "dist": 1381
+ },
+ "중국법인/리나": {
+  "polo_node": "4131:20494",
+  "polo_layer": "cg",
+  "dist": 1536
+ },
+ "중국법인/황애령": {
+  "polo_node": "4131:20514",
+  "polo_layer": "cg",
+  "dist": 1536
+ },
+ "중국법인/왕천": {
+  "polo_node": "4131:20517",
+  "polo_layer": "cg",
+  "dist": 1381
+ },
+ "중국법인/황립홍": {
+  "polo_node": "4131:20500",
+  "polo_layer": "cg",
+  "dist": 1520
+ },
+ "중국법인/왕우명": {
+  "polo_node": "4131:20464",
+  "polo_layer": "cg",
+  "dist": 1396
+ },
+ "중국법인/강위": {
+  "polo_node": "4131:20486",
+  "polo_layer": "cg",
+  "dist": 1608
+ },
+ "중국법인/리업붕": {
+  "polo_node": "4131:20507",
+  "polo_layer": "cg",
+  "dist": 1399
+ },
+ "중국법인/곽홍량": {
+  "polo_node": "4131:20493",
+  "polo_layer": "cg",
+  "dist": 1608
+ },
+ "중국법인/육수동": {
+  "polo_node": "4131:20481",
+  "polo_layer": "cg",
+  "dist": 1260
+ },
+ "중국법인/당효동": {
+  "polo_node": "4131:20292",
+  "polo_layer": "cg",
+  "dist": 1371
+ },
+ "중국법인/마문학": {
+  "polo_node": "4131:20505",
+  "polo_layer": "cg",
+  "dist": 1536
+ },
+ "중국법인/정팅": {
+  "polo_node": "4131:20490",
+  "polo_layer": "cg",
+  "dist": 1381
+ },
+ "중국법인/김민호": {
+  "polo_node": "4131:20503",
+  "polo_layer": "cg",
+  "dist": 1608
+ },
+ "중국법인/장검명": {
+  "polo_node": "4131:20246",
+  "polo_layer": "cg",
+  "dist": 1399
+ },
+ "중국법인/라강림": {
+  "polo_node": "4131:20498",
+  "polo_layer": "cg",
+  "dist": 1260
+ },
+ "설계개발팀/안태준": {
+  "polo_node": "4131:19594",
+  "polo_layer": "cg",
+  "dist": 1383
+ },
+ "설계개발팀/이은경": {
+  "polo_node": "4131:19652",
+  "polo_layer": "cg",
+  "dist": 1507
+ },
+ "설계개발팀/이시암": {
+  "polo_node": "4131:19669",
+  "polo_layer": "cg",
+  "dist": 1388
+ },
+ "설계개발팀/김현덕": {
+  "polo_node": "4131:19663",
+  "polo_layer": "cg",
+  "dist": 1498
+ },
+ "설계개발팀/박찬석": {
+  "polo_node": "4131:19657",
+  "polo_layer": "cg",
+  "dist": 1452
+ },
+ "설계개발팀/김승준": {
+  "polo_node": "4131:19627",
+  "polo_layer": "cg",
+  "dist": 1457
+ },
+ "설계개발팀/김준호": {
+  "polo_node": "4131:19656",
+  "polo_layer": "cg",
+  "dist": 1383
+ },
+ "설계개발팀/류지승": {
+  "polo_node": "4131:19664",
+  "polo_layer": "cg",
+  "dist": 1383
+ },
+ "설계개발팀/이승훈": {
+  "polo_node": "4131:19670",
+  "polo_layer": "cg",
+  "dist": 1452
+ },
+ "설계개발팀/김종남": {
+  "polo_node": "4131:19671",
+  "polo_layer": "cg",
+  "dist": 1383
+ },
+ "설계개발팀/최배성": {
+  "polo_node": "4131:19662",
+  "polo_layer": "cg",
+  "dist": 1383
+ },
+ "설계개발팀/장재욱": {
+  "polo_node": "4131:20377",
+  "polo_layer": "cg",
+  "dist": 1383
+ },
+ "설계개발팀/배상현": {
+  "polo_node": "4131:19672",
+  "polo_layer": "cg",
+  "dist": 1498
+ },
+ "설계개발팀/안재오": {
+  "polo_node": "4131:19668",
+  "polo_layer": "cg",
+  "dist": 1383
+ },
+ "설계개발팀/문성혁": {
+  "polo_node": "4131:19665",
+  "polo_layer": "cg",
+  "dist": 1388
+ },
+ "설계개발팀/홍정모": {
+  "polo_node": "4131:19596",
+  "polo_layer": "cg",
+  "dist": 1388
+ },
+ "설계개발팀/소정은": {
+  "polo_node": "4131:20375",
+  "polo_layer": "cg",
+  "dist": 1498
+ },
+ "엔솔개발팀/박현재": {
+  "polo_node": "4131:19752",
+  "polo_layer": "cg",
+  "dist": 1368
+ },
+ "엔솔개발팀/권정우": {
+  "polo_node": "4131:19760",
+  "polo_layer": "cg",
+  "dist": 1445
+ },
+ "엔솔개발팀/함성훈": {
+  "polo_node": "4131:19758",
+  "polo_layer": "cg",
+  "dist": 1368
+ },
+ "엔솔개발팀/강승한": {
+  "polo_node": "4131:19723",
+  "polo_layer": "cg",
+  "dist": 1227
+ },
+ "엔솔개발팀/정향희": {
+  "polo_node": "4131:19722",
+  "polo_layer": "cg",
+  "dist": 1368
+ },
+ "엔솔개발팀/박건태": {
+  "polo_node": "4131:19761",
+  "polo_layer": "cg",
+  "dist": 1445
+ },
+ "엔솔개발팀/정진상": {
+  "polo_node": "4131:19754",
+  "polo_layer": "cg",
+  "dist": 1498
+ },
+ "엔솔개발팀/이수민": {
+  "polo_node": "4131:19542",
+  "polo_layer": "cg",
+  "dist": 1227
+ },
+ "엔솔개발팀/장형상": {
+  "polo_node": "4131:19767",
+  "polo_layer": "cg",
+  "dist": 1445
+ },
+ "엔솔개발팀/서충원": {
+  "polo_node": "4131:20369",
+  "polo_layer": "cg",
+  "dist": 1451
+ },
+ "엔솔개발팀/상예찬": {
+  "polo_node": "4131:19771",
+  "polo_layer": "cg",
+  "dist": 1368
+ },
+ "엔솔개발팀/장창현": {
+  "polo_node": "4131:19764",
+  "polo_layer": "cg",
+  "dist": 1448
+ },
+ "엔솔개발팀/박경식": {
+  "polo_node": "4131:19768",
+  "polo_layer": "cg",
+  "dist": 1561
+ },
+ "엔솔개발팀/서기홍": {
+  "polo_node": "4131:19766",
+  "polo_layer": "cg",
+  "dist": 1561
+ },
+ "엔솔개발팀/윤장호": {
+  "polo_node": "4131:19759",
+  "polo_layer": "cg",
+  "dist": 1227
+ },
+ "엔솔개발팀/허문석": {
+  "polo_node": "4131:19757",
+  "polo_layer": "cg",
+  "dist": 1445
+ },
+ "엔솔개발팀/우성운": {
+  "polo_node": "4131:19726",
+  "polo_layer": "cg",
+  "dist": 1445
+ },
+ "기술기획팀/이혜연": {
+  "polo_node": "4131:19573",
+  "polo_layer": "cg",
+  "dist": 1454
+ },
+ "기술기획팀/이대근": {
+  "polo_node": "4131:19571",
+  "polo_layer": "cg",
+  "dist": 1445
+ },
+ "기술기획팀/김선우": {
+  "polo_node": "4131:19569",
+  "polo_layer": "cg",
+  "dist": 1445
+ },
+ "기술기획팀/김동진": {
+  "polo_node": "4131:19580",
+  "polo_layer": "cg",
+  "dist": 1445
+ },
+ "기술기획팀/박상렬": {
+  "polo_node": "4131:19583",
+  "polo_layer": "cg",
+  "dist": 1445
+ },
+ "기술기획팀/이승진": {
+  "polo_node": "4131:19584",
+  "polo_layer": "cg",
+  "dist": 1445
+ },
+ "기술기획팀/이현민": {
+  "polo_node": "4131:19586",
+  "polo_layer": "cg",
+  "dist": 1445
+ },
+ "기술기획팀/박재욱": {
+  "polo_node": "4131:19773",
+  "polo_layer": "cg",
+  "dist": 1445
+ },
+ "기술기획팀/최은주": {
+  "polo_node": "4131:19774",
+  "polo_layer": "cg",
+  "dist": 1445
+ },
+ "기술기획팀/김태국": {
+  "polo_node": "4131:19570",
+  "polo_layer": "cg",
+  "dist": 1445
+ },
+ "기술기획팀/하성열": {
+  "polo_node": "4131:19585",
+  "polo_layer": "cg",
+  "dist": 1445
+ },
+ "MAX TF/김준우": {
+  "polo_node": "4131:18971",
+  "polo_layer": "cg",
+  "dist": 1331
+ },
+ "MAX TF/박영준": {
+  "polo_node": "4131:19488",
+  "polo_layer": "cg",
+  "dist": 1564
+ },
+ "MAX TF/장훈": {
+  "polo_node": "4131:19782",
+  "polo_layer": "cg",
+  "dist": 1331
+ },
+ "MAX TF/박시형": {
+  "polo_node": "4131:19783",
+  "polo_layer": "cg",
+  "dist": 1398
+ },
+ "MAX TF/변창언": {
+  "polo_node": "4131:19822",
+  "polo_layer": "m1",
+  "dist": 1564
+ },
+ "MAX TF/김민섭": {
+  "polo_node": "4131:19823",
+  "polo_layer": "m0",
+  "dist": 1406
+ },
+ "MAX TF/김정빈": {
+  "polo_node": "4131:19824",
+  "polo_layer": "cg",
+  "dist": 1331
+ },
+ "MAX TF/고종혁": {
+  "polo_node": "4131:19825",
+  "polo_layer": "m0",
+  "dist": 1406
+ },
+ "MAX TF/이준서": {
+  "polo_node": "4131:19826",
+  "polo_layer": "m2",
+  "dist": 1564
+ },
+ "MAX TF/윤재웅": {
+  "polo_node": "4131:20096",
+  "polo_layer": "cg",
+  "dist": 1331
+ },
+ "MAX TF/허영욱": {
+  "polo_node": "4131:20097",
+  "polo_layer": "cg",
+  "dist": 1331
+ },
+ "MAX TF/신대석": {
+  "polo_node": "4131:20098",
+  "polo_layer": "cg",
+  "dist": 1331
+ },
+ "MAX TF/박찬우": {
+  "polo_node": "4131:20103",
+  "polo_layer": "m3",
+  "dist": 1354
+ },
+ "MAX TF/심후성": {
+  "polo_node": "4131:20105",
+  "polo_layer": "cg",
+  "dist": 1354
+ },
+ "MAX TF/김현": {
+  "polo_node": "4131:20106",
+  "polo_layer": "cg",
+  "dist": 1354
+ },
+ "모티브개발팀/김상리": {
+  "polo_node": "4131:20122",
+  "polo_layer": "cg",
+  "dist": 1354
+ },
+ "모티브개발팀/서상준": {
+  "polo_node": "4131:18963",
+  "polo_layer": "cg",
+  "dist": 1331
+ },
+ "모티브개발팀/조해용": {
+  "polo_node": "4131:18964",
+  "polo_layer": "cg",
+  "dist": 1564
+ },
+ "모티브개발팀/최승원": {
+  "polo_node": "4131:18967",
+  "polo_layer": "cg",
+  "dist": 1331
+ },
+ "모티브개발팀/손영민": {
+  "polo_node": "4131:19502",
+  "polo_layer": "cg",
+  "dist": 1398
+ },
+ "모티브개발팀/유상진": {
+  "polo_node": "4131:19827",
+  "polo_layer": "cg",
+  "dist": 1398
+ },
+ "모티브개발팀/김용수": {
+  "polo_node": "4131:20099",
+  "polo_layer": "cg",
+  "dist": 1331
+ },
+ "모티브개발팀/김지원": {
+  "polo_node": "4131:20100",
+  "polo_layer": "cg",
+  "dist": 1331
+ },
+ "모티브개발팀/도기봉": {
+  "polo_node": "4131:20104",
+  "polo_layer": "cg",
+  "dist": 1354
+ },
+ "웹서비스개발팀/이의현": {
+  "polo_node": "4131:20144",
+  "polo_layer": "cg",
+  "dist": 1354
+ },
+ "웹서비스개발팀/한강섭": {
+  "polo_node": "4131:19829",
+  "polo_layer": "cg",
+  "dist": 1331
+ },
+ "웹서비스개발팀/이승현": {
+  "polo_node": "4131:20102",
+  "polo_layer": "cg",
+  "dist": 1331
+ },
+ "웹서비스개발팀/조도연": {
+  "polo_node": "4131:20136",
+  "polo_layer": "cg",
+  "dist": 1398
+ },
+ "웹서비스개발팀/신민우": {
+  "polo_node": "4131:20137",
+  "polo_layer": "cg",
+  "dist": 1331
+ },
+ "웹서비스개발팀/김현규": {
+  "polo_node": "4131:20138",
+  "polo_layer": "cg",
+  "dist": 1564
+ },
+ "웹서비스개발팀/황정혜": {
+  "polo_node": "4131:20139",
+  "polo_layer": "cg",
+  "dist": 1331
+ },
+ "웹서비스개발팀/이찬": {
+  "polo_node": "4131:20140",
+  "polo_layer": "cg",
+  "dist": 1229
+ },
+ "웹서비스개발팀/김건휘": {
+  "polo_node": "4131:20147",
+  "polo_layer": "cg",
+  "dist": 1398
+ },
+ "웹서비스개발팀/김승수": {
+  "polo_node": "4131:20373",
+  "polo_layer": "cg",
+  "dist": 1564
+ },
+ "모티브개발팀/신형진": {
+  "polo_node": "4131:18968",
+  "polo_layer": "cg manual",
+  "dist": 3378
+ },
+ "온사이트개발팀/이태헌": {
+  "polo_node": "4131:20132",
+  "polo_layer": "cg",
+  "dist": 1190
+ },
+ "온사이트개발팀/이정현": {
+  "polo_node": "4131:20134",
+  "polo_layer": "cg",
+  "dist": 1190
+ },
+ "온사이트개발팀/윤장호": {
+  "polo_node": "4131:20064",
+  "polo_layer": "cg",
+  "dist": 1241
+ },
+ "온사이트개발팀/황병훈": {
+  "polo_node": "4131:20065",
+  "polo_layer": "cg",
+  "dist": 1241
+ },
+ "온사이트개발팀/박동근": {
+  "polo_node": "4131:20088",
+  "polo_layer": "cg",
+  "dist": 1241
+ },
+ "온사이트개발팀/최진원": {
+  "polo_node": "4131:20089",
+  "polo_layer": "cg",
+  "dist": 1241
+ },
+ "온사이트개발팀/양현승": {
+  "polo_node": "4131:20090",
+  "polo_layer": "cg",
+  "dist": 1241
+ },
+ "온사이트개발팀/김관홍": {
+  "polo_node": "4131:20101",
+  "polo_layer": "cg",
+  "dist": 1241
+ },
+ "온사이트개발팀/하성우": {
+  "polo_node": "4131:20360",
+  "polo_layer": "cg",
+  "dist": 1241
+ },
+ "미주법인/이근협": {
+  "polo_node": "4131:19922",
+  "polo_layer": "cg",
+  "dist": 1338
+ },
+ "미주법인/소피아": {
+  "polo_node": "4131:19924",
+  "polo_layer": "cg",
+  "dist": 1224
+ },
+ "미주법인/호라시오": {
+  "polo_node": "4131:19828",
+  "polo_layer": "cg",
+  "dist": 1192
+ },
+ "미주법인/안드레스": {
+  "polo_node": "4131:19923",
+  "polo_layer": "cg",
+  "dist": 1224
+ },
+ "미주법인/한정묘": {
+  "polo_node": "4131:19830",
+  "polo_layer": "cg",
+  "dist": 1360
+ },
+ "미주법인/이준호": {
+  "polo_node": "4131:20141",
+  "polo_layer": "cg",
+  "dist": 1345
+ },
+ "미주법인/박지훈": {
+  "polo_node": "4131:20142",
+  "polo_layer": "cg",
+  "dist": 1232
+ },
+ "미주법인/알란": {
+  "polo_node": "4131:20146",
+  "polo_layer": "cg",
+  "dist": 1232
+ },
+ "미주법인/대니엘": {
+  "polo_node": "4131:19848",
+  "polo_layer": "cg",
+  "dist": 1224
+ },
+ "미주법인/루세로": {
+  "polo_node": "4131:20607",
+  "polo_layer": "cg",
+  "dist": 1232
+ },
+ "일본법인/최동철": {
+  "polo_node": "4131:19862",
+  "polo_layer": "cg",
+  "dist": 1337
+ },
+ "일본법인/전장웅": {
+  "polo_node": "4131:19878",
+  "polo_layer": "cg",
+  "dist": 1252
+ },
+ "일본법인/송재경": {
+  "polo_node": "4131:19925",
+  "polo_layer": "cg",
+  "dist": 1224
+ },
+ "일본법인/윤성민": {
+  "polo_node": "4131:19930",
+  "polo_layer": "cg",
+  "dist": 1232
+ },
+ "일본법인/김재모": {
+  "polo_node": "4131:19969",
+  "polo_layer": "cg",
+  "dist": 1296
+ },
+ "일본법인/임채호": {
+  "polo_node": "4131:19967",
+  "polo_layer": "cg",
+  "dist": 1346
+ },
+ "일본법인/신승윤": {
+  "polo_node": "4131:19968",
+  "polo_layer": "cg",
+  "dist": 1346
+ },
+ "일본법인/김경환": {
+  "polo_node": "4131:19971",
+  "polo_layer": "cg",
+  "dist": 1346
+ },
+ "일본법인/히로세": {
+  "polo_node": "4131:20160",
+  "polo_layer": "cg",
+  "dist": 1346
+ },
+ "일본법인/이한규": {
+  "polo_node": "4131:19927",
+  "polo_layer": "cg",
+  "dist": 1399
+ },
+ "일본법인/이지우": {
+  "polo_node": "4131:19948",
+  "polo_layer": "cg",
+  "dist": 1252
+ },
+ "일본법인/후지이": {
+  "polo_node": "4131:19949",
+  "polo_layer": "cg",
+  "dist": 1399
+ },
+ "일본법인/김은영": {
+  "polo_node": "4131:20165",
+  "polo_layer": "cg",
+  "dist": 1252
+ },
+ "일본법인/신동우": {
+  "polo_node": "4131:20166",
+  "polo_layer": "cg",
+  "dist": 1399
+ },
+ "일본법인/오세훈": {
+  "polo_node": "4131:20167",
+  "polo_layer": "cg",
+  "dist": 1399
+ },
+ "일본법인/신정호": {
+  "polo_node": "4131:20610",
+  "polo_layer": "cg",
+  "dist": 1252
+ },
+ "일본법인/김준기": {
+  "polo_node": "4131:20924",
+  "polo_layer": "cg2",
+  "dist": 1404
+ },
+ "일본법인/김정민": {
+  "polo_node": "4131:20923",
+  "polo_layer": "cg2",
+  "dist": 1399
+ },
+ "일본법인/장용재": {
+  "polo_node": "4131:20922",
+  "polo_layer": "cg2",
+  "dist": 1472
+ },
+ "일본법인/권오준": {
+  "polo_node": "4131:20884",
+  "polo_layer": "cg",
+  "dist": 1252
+ },
+ "일본법인/이종석": {
+  "polo_node": "4131:20906",
+  "polo_layer": "cg2",
+  "dist": 1252
+ },
+ "일본법인/엄태현": {
+  "polo_node": "4131:20920",
+  "polo_layer": "cg2",
+  "dist": 1727
+ },
+ "일본법인/김혜정": {
+  "polo_node": "4131:20889",
+  "polo_layer": "cg2",
+  "dist": 1419
+ },
+ "일본법인/정진홍": {
+  "polo_node": "4131:20897",
+  "polo_layer": "cg2",
+  "dist": 1384
+ },
+ "일본법인/조민현": {
+  "polo_node": "4131:20927",
+  "polo_layer": "cg",
+  "dist": 1766
+ }
+}
