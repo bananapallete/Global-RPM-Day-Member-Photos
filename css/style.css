@@ -458,9 +458,8 @@ body {
 
 .photo-toggle {
   position: absolute;
-  top: 8px;
-  left: 50%;
-  transform: translateX(-50%);
+  bottom: 8px;
+  right: 8px;
   display: flex;
   padding: 3px;
   gap: 2px;
