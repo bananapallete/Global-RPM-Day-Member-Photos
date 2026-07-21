@@ -8,6 +8,7 @@
   const teamTitleEl = document.getElementById("team-title");
   const teamTitleEnEl = document.getElementById("team-title-en");
   const teamCountEl = document.getElementById("team-count");
+  const viewToggleEl = document.getElementById("view-toggle");
   const backBtn = document.getElementById("back-btn");
   const backLabelEl = document.getElementById("back-label");
   const siteSubEl = document.getElementById("site-sub");
@@ -209,6 +210,8 @@
     teamCountEl.textContent = t().memberCount(team.members.length);
     cardsEl.replaceChildren();
 
+    // 카드별 뷰 전환 함수 목록 (우측 상단 일괄 토글용)
+    const cardSetters = [];
     const frag = document.createDocumentFragment();
     team.members.forEach(function (m) {
       const card = document.createElement("div");
@@ -242,6 +245,7 @@
         btnPolo.addEventListener("click", function () { setView("polo"); });
         seg.append(btnAi, btnPolo);
         photo.appendChild(seg);
+        cardSetters.push(setView);
       }
 
       const displayName = memberName(m);
@@ -301,6 +305,27 @@
       frag.appendChild(card);
     });
     cardsEl.appendChild(frag);
+
+    // 우측 상단 일괄 토글: 팀 내 모든 카드의 AI ↔ 카라티를 한 번에 전환
+    viewToggleEl.replaceChildren();
+    viewToggleEl.hidden = cardSetters.length === 0;
+    if (cardSetters.length) {
+      const gAi = document.createElement("button");
+      gAi.type = "button";
+      gAi.textContent = t().viewAi;
+      gAi.className = "on";
+      const gPolo = document.createElement("button");
+      gPolo.type = "button";
+      gPolo.textContent = t().viewPolo;
+      function setAll(v) {
+        cardSetters.forEach(function (fn) { fn(v); });
+        gAi.classList.toggle("on", v === "ai");
+        gPolo.classList.toggle("on", v === "polo");
+      }
+      gAi.addEventListener("click", function () { setAll("ai"); });
+      gPolo.addEventListener("click", function () { setAll("polo"); });
+      viewToggleEl.append(gAi, gPolo);
+    }
   }
 
   function closeDlMenus() {

@@ -277,16 +277,6 @@ body {
   margin-bottom: 16px;
 }
 
-.division-head::before {
-  content: "";
-  width: 34px;
-  height: 7px;
-  border-radius: 4px;
-  background: var(--grad);
-  align-self: center;
-  flex-shrink: 0;
-}
-
 .division-kr {
   font-size: clamp(19px, 4vw, 26px);
   font-weight: 800;
@@ -349,6 +339,7 @@ body {
 }
 
 .team-btn .cnt {
+  margin-top: 10px;
   font-size: 11.5px;
   font-weight: 600;
   color: var(--accent-soft);
@@ -360,11 +351,47 @@ body {
 
 /* ---------------- team view ---------------- */
 .team-head {
+  position: relative;
   padding-top: clamp(18px, 4vw, 30px);
   display: flex;
   flex-direction: column;
   gap: 14px;
   align-items: flex-start;
+}
+
+/* 팀 화면 우측 상단 일괄 전환 토글 (AI ↔ 카라티) */
+.view-toggle {
+  position: absolute;
+  right: 0;
+  top: clamp(18px, 4vw, 30px);
+  display: flex;
+  padding: 4px;
+  gap: 3px;
+  background: rgba(6, 11, 28, 0.72);
+  border-radius: 999px;
+  border: 1.5px solid var(--stroke);
+}
+
+.view-toggle button {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 999px;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: clamp(13px, 2.8vw, 15px);
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.view-toggle button.on {
+  background: var(--accent);
+  color: #fff;
+}
+
+@media (max-width: 560px) {
+  .view-toggle button { padding: 7px 14px; }
 }
 
 .back-btn {
