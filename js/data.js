@@ -1739,7 +1739,7 @@ const DATA = [
       {
         "id": "us",
         "kr": "미주법인",
-        "en": "Americas Subsidiary",
+        "en": "Americas Branch",
         "members": [
           {
             "name": "이준호",
@@ -1846,7 +1846,7 @@ const DATA = [
       {
         "id": "japan",
         "kr": "일본법인",
-        "en": "Japan Subsidiary",
+        "en": "Japan Branch",
         "members": [
           {
             "name": "신정호",
@@ -2103,7 +2103,7 @@ const DATA = [
       {
         "id": "russia",
         "kr": "러시아법인",
-        "en": "Russia Subsidiary",
+        "en": "Russia Branch",
         "members": [
           {
             "name": "강올레그",
@@ -2200,7 +2200,7 @@ const DATA = [
       {
         "id": "india",
         "kr": "인도법인",
-        "en": "India Subsidiary",
+        "en": "India Branch",
         "members": [
           {
             "name": "라비",
@@ -2357,7 +2357,7 @@ const DATA = [
       {
         "id": "china",
         "kr": "중국법인",
-        "en": "China Subsidiary",
+        "en": "China Branch",
         "members": [
           {
             "name": "정승식",
@@ -2694,7 +2694,7 @@ const DATA = [
       {
         "id": "philippines",
         "kr": "필리핀법인",
-        "en": "Philippines Subsidiary",
+        "en": "Philippines Branch",
         "members": [
           {
             "name": "전상목",
@@ -2821,7 +2821,7 @@ const DATA = [
       {
         "id": "australia",
         "kr": "호주법인",
-        "en": "Australia Subsidiary",
+        "en": "Australia Branch",
         "members": [
           {
             "name": "김창범",
@@ -2878,7 +2878,7 @@ const DATA = [
       {
         "id": "europe",
         "kr": "유럽법인",
-        "en": "Europe Subsidiary",
+        "en": "Europe Branch",
         "members": [
           {
             "name": "이현수",

@@ -21,14 +21,14 @@ TEAMS = {
     "모티브개발팀":  {"id": "motiv",       "kr": "모티브개발팀",   "en": "Motive Development Team"},
     "웹서비스개발팀": {"id": "web-service", "kr": "웹서비스개발팀", "en": "Web Service Development Team"},
     "온사이트개발팀": {"id": "onsite",      "kr": "온사이트개발팀", "en": "OnSite Development Team"},
-    "미주법인":      {"id": "us",          "kr": "미주법인",       "en": "Americas Subsidiary"},
-    "일본법인":      {"id": "japan",       "kr": "일본법인",       "en": "Japan Subsidiary"},
-    "러시아법인":    {"id": "russia",      "kr": "러시아법인",     "en": "Russia Subsidiary"},
-    "인도법인":      {"id": "india",       "kr": "인도법인",       "en": "India Subsidiary"},
-    "중국법인":      {"id": "china",       "kr": "중국법인",       "en": "China Subsidiary"},
-    "필리핀법인":    {"id": "philippines", "kr": "필리핀법인",     "en": "Philippines Subsidiary"},
-    "호주법인":      {"id": "australia",   "kr": "호주법인",       "en": "Australia Subsidiary"},
-    "유럽법인":      {"id": "europe",      "kr": "유럽법인",       "en": "Europe Subsidiary"},
+    "미주법인":      {"id": "us",          "kr": "미주법인",       "en": "Americas Branch"},
+    "일본법인":      {"id": "japan",       "kr": "일본법인",       "en": "Japan Branch"},
+    "러시아법인":    {"id": "russia",      "kr": "러시아법인",     "en": "Russia Branch"},
+    "인도법인":      {"id": "india",       "kr": "인도법인",       "en": "India Branch"},
+    "중국법인":      {"id": "china",       "kr": "중국법인",       "en": "China Branch"},
+    "필리핀법인":    {"id": "philippines", "kr": "필리핀법인",     "en": "Philippines Branch"},
+    "호주법인":      {"id": "australia",   "kr": "호주법인",       "en": "Australia Branch"},
+    "유럽법인":      {"id": "europe",      "kr": "유럽법인",       "en": "Europe Branch"},
 }
 
 DIVISIONS = [
