@@ -1744,7 +1744,7 @@ const DATA = [
           {
             "name": "이준호",
             "en": "Jason Lee",
-            "team": "미주법인",
+            "team": "북미법인",
             "note": "",
             "photo": "photos/us/이준호.png",
             "thumb": "thumbs/us/이준호.webp",
@@ -1754,7 +1754,7 @@ const DATA = [
           {
             "name": "박지훈",
             "en": "Louis Park",
-            "team": "미주법인",
+            "team": "북미법인",
             "note": "",
             "photo": "photos/us/박지훈.png",
             "thumb": "thumbs/us/박지훈.webp",
@@ -1764,7 +1764,7 @@ const DATA = [
           {
             "name": "한정묘",
             "en": "Ellie Han",
-            "team": "미주법인",
+            "team": "북미법인",
             "note": "",
             "photo": "photos/us/한정묘.png",
             "thumb": "thumbs/us/한정묘.webp",

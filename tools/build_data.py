@@ -45,9 +45,6 @@ DIVISIONS = [
                 "중국법인", "필리핀법인", "호주법인", "유럽법인"]},
 ]
 
-# 카드 소속 표기 시 치환 (좌석배치도와 동일하게 북미법인 → 미주법인)
-TEAM_LABEL_RENAME = {"북미법인": "미주법인"}
-
 # 팀 id → 영문명 시트(data/names_en.tsv)의 소속명
 SHEET_TEAM_BY_ID = {
     "nambu": "Southern BIZ TF",
@@ -158,7 +155,7 @@ def main():
                 entry = {
                     "name": m["name"],
                     "en": en_name or "",
-                    "team": TEAM_LABEL_RENAME.get(m["team"], m["team"]),
+                    "team": m["team"],
                     "note": m.get("note", ""),
                     "photo": f"photos/{folder}/{m['name']}.png",
                     "thumb": f"thumbs/{folder}/{m['name']}.webp",
